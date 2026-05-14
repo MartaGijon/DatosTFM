@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.400000,false,,,,"The evaluation considers each field separately with the specified metrics. For integer fields, integer_exact requires exact numeric equality; for strings, string_exact demands exact case‐sensitive mat..."

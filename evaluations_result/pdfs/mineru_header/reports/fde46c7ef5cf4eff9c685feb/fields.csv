@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold records are perfectly matched to the predicted records when aligned by position values, despite permutation in the predicted array. Each field in the gold and its corresponding predicte..."

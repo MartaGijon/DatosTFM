@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items have a perfect counterpart in the predicted array. The only differences are in formatting of the description field (different punctuation, spacing, and a Unicode full‑width comma i..."

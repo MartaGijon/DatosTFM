@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"For the lone gold object, the best-matching predicted object is the first one. The string field ""variant_allele"" does not match exactly (""(TTTA)>=10"" vs ""(TTTA)10""), so that field scores 0. Both numer..."

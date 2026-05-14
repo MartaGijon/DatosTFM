@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item finds an exact counterpart in the predicted array when evaluated field‑by‑field. The numeric fields (quantity, unit_price_gross, price_gross) match exactly in every pair. For the descri..."

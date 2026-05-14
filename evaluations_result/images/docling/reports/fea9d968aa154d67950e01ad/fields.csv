@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"I compared the single gold item with the single predicted item on a per-field basis using the rules specified in the metric definitions:
+- **position**: integer_exact – 28 vs 28 ⇒ pass (1.0)
+- **date*..."

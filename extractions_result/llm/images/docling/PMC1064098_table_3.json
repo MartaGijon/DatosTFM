@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "cell_type": "NAF 2",
+            "sample_id": "NAF 2",
+            "monoculture_level": 49.25,
+            "monoculture_mean": 9.65,
+            "coculture_level": 10.22,
+            "coculture_mean": 10.22
+        },
+        {
+            "cell_type": "CAF",
+            "sample_id": "CAF1",
+            "monoculture_level": 70.64,
+            "monoculture_mean": 70.64,
+            "coculture_level": 10.01,
+            "coculture_mean": 10.01
+        },
+        {
+            "cell_type": "CAF",
+            "sample_id": "CAF?",
+            "monoculture_level": 62.86,
+            "monoculture_mean": 62.86,
+            "coculture_level": 10.28,
+            "coculture_mean": 10.28
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.920000,true,,,,"The evaluation process involved matching each of the 5 gold items with the best available predicted item in order to maximize the partial match score. All gold items have five fields: position, descri..."

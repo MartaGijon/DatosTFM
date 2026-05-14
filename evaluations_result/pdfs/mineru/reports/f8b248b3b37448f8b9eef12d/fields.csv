@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"The gold array contains one item with seven fields. The predicted array contains three items, each with the same seven fields. I matched each gold item to the predicted item that maximized the per-fie..."

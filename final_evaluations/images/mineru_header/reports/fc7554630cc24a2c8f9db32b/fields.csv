@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.937500,true,,,,"The predicted array contains the same eight items as the gold array, but some unit_price_gross values differ.  For each pair we compare the four fields:
+- **position** (exact integer match)
+- **descri..."

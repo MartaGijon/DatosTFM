@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The two arrays both contain four items with identical start_date, end_date and quantity values. Each predicted item’s position field corresponds exactly to a gold item’s position field. The unit_price..."

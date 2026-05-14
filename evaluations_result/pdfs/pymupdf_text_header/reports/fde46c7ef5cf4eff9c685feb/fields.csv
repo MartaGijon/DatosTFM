@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items are matched one‑to‑one with identical items in the predicted array. Each field (integers, numbers, and strings) satisfies its exact-match evaluation rules, yielding a per‑field score of..."

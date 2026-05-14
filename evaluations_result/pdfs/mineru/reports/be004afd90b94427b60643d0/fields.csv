@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.600000,false,,,,"To evaluate the match, each field in a gold item is compared to the corresponding field in a predicted item using the appropriate metric:
+- `position` uses integer_exact;
+- `code` and `date` use strin..."

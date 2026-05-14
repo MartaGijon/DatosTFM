@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items exactly match corresponding predicted items on every field. Each gold item is paired with a unique predicted item and achieves a full match score of 1.0 per item, total 6.0. The two pre..."

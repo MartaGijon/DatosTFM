@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains a single item. When evaluating against the 14 predicted items, the optimal match is any predicted item that exactly replicates all fields: position 2, description ""TODAY IN ALA..."

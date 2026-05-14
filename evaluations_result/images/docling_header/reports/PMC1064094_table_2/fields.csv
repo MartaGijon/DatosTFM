@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.066600,false,,,,"Each gold item contains three fields: carcinoma_type (string), location (string), and hpv_type_16_count (integer). The comparison for strings uses exact case-sensitive matching (string_exact) and inte..."

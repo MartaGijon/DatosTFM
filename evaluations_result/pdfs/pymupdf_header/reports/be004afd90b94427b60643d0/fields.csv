@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.600000,false,,,,"The evaluation considers each array item as an unordered collection. For every gold item, the best matching predicted item is chosen based on the highest partial match score. Since no metric identifie..."

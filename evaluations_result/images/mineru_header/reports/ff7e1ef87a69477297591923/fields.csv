@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All five gold items precisely match five of the six predicted items on every field (date, quantity, unit_price_gross, price_gross). Each matched pair achieves a perfect partial match score of 1.0. The..."

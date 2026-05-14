@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains four items, each with four fields: description, unit_price_gross, quantity, and price_gross. The predicted array also contains four items. By examining each field, all numeric ..."

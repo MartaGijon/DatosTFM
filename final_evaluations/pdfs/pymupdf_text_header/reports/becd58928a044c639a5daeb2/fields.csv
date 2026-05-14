@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All twelve gold items share identical values for the three fields ""date"", ""description"", and ""amount_net"". The predicted array contains exactly the same count of each unique item: six 07/20, two 07/21..."

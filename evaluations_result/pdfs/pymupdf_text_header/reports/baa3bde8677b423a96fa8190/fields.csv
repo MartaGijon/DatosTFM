@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The evaluation follows the rules specified in the metric definitions. For the numeric fields `unit_price_gross`, `quantity`, and `price_gross`, the ""number_exact"" and ""integer_exact"" metrics are appli..."

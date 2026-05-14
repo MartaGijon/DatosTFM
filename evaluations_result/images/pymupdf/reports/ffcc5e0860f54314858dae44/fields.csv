@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 15 gold items could be uniquely matched to 15 predicted items with identical field values (date, quantity, unit_price_gross, price_gross). Each match satisfies exact equality for every field, yiel..."

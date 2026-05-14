@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.694458,false,,,,"The evaluation treats each array entry as an unordered item.  Each field is assessed individually: date comparison is exact, unit_price_gross uses exact numeric comparison, and description is evaluate..."

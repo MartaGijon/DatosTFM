@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain seven identical objects, each with the exact same 'date' and 'price_gross' values. For each gold item, the best possible pairing is a predicted item with ide..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays each contain 57 items with identical field values for every entry (date, position, description, and unit_price_net). For each gold item, a predicted item with exactly the..."

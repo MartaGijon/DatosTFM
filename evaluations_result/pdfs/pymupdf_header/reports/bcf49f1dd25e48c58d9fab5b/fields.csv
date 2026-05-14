@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items find a perfect match in the predicted array. Each candidate shares identical values for all six fields: position (integer_exact), quantity (integer_exact), unit_price_gross (numbe..."

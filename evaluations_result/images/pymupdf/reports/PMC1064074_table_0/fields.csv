@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.814800,true,,,,"The evaluation treats each array as an unordered set. For every gold entry we identify the predicted entry that maximizes the partial match score, which is calculated as the fraction of matching field..."

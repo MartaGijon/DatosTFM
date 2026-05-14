@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.285714,false,,,,"The predicted array contains one item that shares the same key names as the gold array. Field-by-field evaluation yields:
+- `dataset_name`: exact string match (1.0).
+- `birth_order`: gold value includ..."

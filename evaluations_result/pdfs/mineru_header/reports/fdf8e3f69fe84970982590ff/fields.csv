@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"We compare each gold item to every predicted item using the field-level metrics defined in the “Metric definitions (JSON)”. For the ""code"" and ""date"" fields, the gold values are strings such as ""Norma..."

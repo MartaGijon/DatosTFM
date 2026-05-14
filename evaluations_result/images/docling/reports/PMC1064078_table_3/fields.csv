@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.075000,false,,,,"The evaluation follows the full rule set: each field is compared with its corresponding type-specific metric (string_exact, integer_exact, number_exact). All fields are strict, case‑sensitive, and mus..."

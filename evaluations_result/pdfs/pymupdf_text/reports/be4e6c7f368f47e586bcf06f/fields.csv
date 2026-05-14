@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"For each gold item we computed a partial match score by comparing each of the seven fields (position, date, price_gross, description, code, quantity, unit_price_gross) using exact integer or numeric e..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 7 gold items have exact counterparts in the predicted array. Each item matches on all three fields: date with string_exact, quantity with integer_exact, and price_gross with number_exact. Therefor..."

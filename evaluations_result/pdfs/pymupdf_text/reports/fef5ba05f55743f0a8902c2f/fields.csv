@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 57 gold items are objects with identical fields: date, position, description, and unit_price_net. The predicted array also contains 57 objects with exactly the same field values for each correspon..."

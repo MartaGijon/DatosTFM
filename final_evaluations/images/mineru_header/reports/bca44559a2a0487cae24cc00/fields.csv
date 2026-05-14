@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains the same six items as the gold array, differing only in formatting of the description field (slashes versus dashes). For each field:
+- The numeric fields 'quantity', 'unit..."

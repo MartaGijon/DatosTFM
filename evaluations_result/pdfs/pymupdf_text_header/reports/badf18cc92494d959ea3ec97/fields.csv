@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items and is equal to the predicted array except for the order. Treating arrays as unordered collections, each gold item can be paired with a predicted item that has identi..."

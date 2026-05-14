@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.975000,true,,,,"All gold array items are present in the predicted array: each gold position 5–12 has an exact counterpart in the prediction. For each paired item, the integer fields ""position"" and ""quantity"" were eva..."

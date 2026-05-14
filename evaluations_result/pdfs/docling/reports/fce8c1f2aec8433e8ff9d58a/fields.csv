@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two distinct items, each with six fields: position, date_start, date_end, description, price_gross, and unit_price_gross. Using the provided metric definitions, integer_exact a..."

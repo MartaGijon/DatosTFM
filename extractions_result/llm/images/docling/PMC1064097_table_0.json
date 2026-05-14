@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "inclusion_age": "Not specified in the provided table",
+            "inclusion_sex": "Not specified in the provided table",
+            "exclusion_pregnancy": "Pregnancy",
+            "exclusion_recurrent_disease": "Not specified in the provided table"
+        }
+    ]
+}

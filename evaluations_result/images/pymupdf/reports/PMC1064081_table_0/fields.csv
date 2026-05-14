@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.500000,false,,,,"The gold and predicted items are matched. Field-by-field comparison shows three exact matches: involved_nodes_range (string_exact), number_of_patients_at_risk (integer_exact), and non_breast_cancer_mo..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains the exact same set of items as the gold array, only in a different order. Each gold item can be paired with one predicted item that matches all fields: position, date_star..."

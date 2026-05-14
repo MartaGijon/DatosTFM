@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.750000,true,,,,"The predicted array contains four items, each with four fields: date, description, code, and unit_price_gross.  ``date`` and ``description`` match exactly for all four gold items.  The ``code`` field ..."

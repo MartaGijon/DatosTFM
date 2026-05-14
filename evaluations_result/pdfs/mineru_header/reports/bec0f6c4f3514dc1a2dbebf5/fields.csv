@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.600000,false,,,,"Gold item 1 (position 22) exactly matches predicted item 2, giving a perfect score of 1.0 across all 5 fields. Gold item 3 (position 24) matches predicted item 1 on all fields except the position valu..."

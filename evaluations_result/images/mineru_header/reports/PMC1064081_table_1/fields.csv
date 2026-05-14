@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Evaluated each field using the supplied metric definitions. The log odds range strings differ and do not match exactly (""-2 < L <= -1"" vs ""2<L≤1""). Both integer values for number_of_patients_at_risk (..."

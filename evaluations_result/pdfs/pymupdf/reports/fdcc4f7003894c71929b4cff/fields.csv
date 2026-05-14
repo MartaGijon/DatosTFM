@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold items have exact matches in the predicted array. Each item has the same date, description, and price_gross values, yielding a perfect field-wise score of 1.0 for each matched pair. The re..."

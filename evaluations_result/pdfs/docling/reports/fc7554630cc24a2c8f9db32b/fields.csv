@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All eight gold items find an exact partner in the predicted array. The 
+consistency of the integer fields (position, quantity) and the numeric field 
+(unit_price_gross) is evaluated with the integer_e..."

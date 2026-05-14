@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains two items that can each be paired uniquely with the two gold items. For each pair, all five fields – feature_name, brca1_odds_ratio, brca1_p_value, brca2_odds_ratio, and b..."

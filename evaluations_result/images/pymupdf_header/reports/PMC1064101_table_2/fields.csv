@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.900000,true,,,,"Both gold items were paired with the uniquely matching predicted items. For each pair, all numeric fields were compared with exact equality (number_exact), which passed for all except the brca2_p_valu..."

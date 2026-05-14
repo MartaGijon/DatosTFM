@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.666667,false,,,,"Only one gold item and one predicted item exist. The array items are matched exactly by their sole index.
+
+Field evaluation:
+- ""involved_nodes_range"": strings match (string_exact) → 1.0
+- ""number_of_p..."

@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.888889,true,,,,"The gold and predicted arrays each contain one object. We compare each field using the provided metric definitions:
+- For string fields (`genotype`) we use `string_exact` and the values are identical...."

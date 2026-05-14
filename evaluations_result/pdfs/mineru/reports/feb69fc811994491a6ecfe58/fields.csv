@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Se evaluó cada elemento de la matriz de oro contra la matriz de predicción. Para cada campo se aplicaron las reglas de métrica correspondientes: integer_exact para los enteros (posición, cantidad), nu..."

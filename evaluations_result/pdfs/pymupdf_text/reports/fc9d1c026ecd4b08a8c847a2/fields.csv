@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays contain three items that are identical in all fields: unit_price_gross, quantity, and price_gross. Since arrays are treated as unordered collections, each gold item can b..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"There are four gold items and four predicted items. The only field that differs between the gold and predicted objects is ""description"" – the gold uses slashes (/, e.g., ""Morning, M/F, 6a/10am, 30"") w..."

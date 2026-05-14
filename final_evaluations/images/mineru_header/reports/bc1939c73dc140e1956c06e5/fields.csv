@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.916667,true,,,,"To evaluate the gold array against the predicted array, I treated the arrays as unordered collections. Each gold item is paired with a single predicted item so that the total partial match score—the s..."

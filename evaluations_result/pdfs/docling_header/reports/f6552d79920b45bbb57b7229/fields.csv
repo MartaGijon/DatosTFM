@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"The gold array contains six items, each with six fields. 
+
+All numeric fields (quantity, unit_price_gross, price_gross) match perfectly with a corresponding predicted item, and the dates (start_date a..."

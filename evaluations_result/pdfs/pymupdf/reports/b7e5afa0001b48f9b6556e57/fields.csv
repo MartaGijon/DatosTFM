@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.994000,true,,,,"All four predicted items can be aligned one‑to‑one with four of the five gold items. Each alignment matches all numeric and date fields exactly, while the description field varies only by punctuation ..."

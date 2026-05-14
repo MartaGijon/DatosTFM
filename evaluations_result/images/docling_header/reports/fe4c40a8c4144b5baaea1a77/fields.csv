@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.300000,false,,,,"The evaluation treated each item as an unordered collection. For every gold object we considered each predicted object and calculated a partial match score based on 5 fields: date, description, code, ..."

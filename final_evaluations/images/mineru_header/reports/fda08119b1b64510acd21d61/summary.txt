@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: fda08119b1b64510acd21d61
+Timestamp: 2026-05-14T09:09:08.267665
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.562
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 7
+  Required Keys: 5
+  Optional Keys: 0
+  By Type: array: 1, number: 1, object: 2, string: 3
+
+COVERAGE
+----------------------------------------
+  Present in Both: 24
+  Missing in Extracted: 8
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.562
+  Median Score: 0.562
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.562
+      Reason: The gold array contains 8 identical items. The predicted array contains 6 items, all of which match ...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.562
+
+================================================================================

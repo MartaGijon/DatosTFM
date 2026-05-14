@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.460000,false,,,,"The evaluation treats each gold and predicted item as a set of five fields.  Fields are checked with the meaning‑specific rules: 
+- `position` → integer_exact (cmp after int coercion) 
+- `description`..."

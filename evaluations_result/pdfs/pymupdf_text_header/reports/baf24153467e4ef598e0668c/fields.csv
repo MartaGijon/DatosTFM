@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.577778,false,,,,"The gold array contains 9 items, each with 5 fields: code, date, description, unit_price_gross, and price_gross. For each pair we evaluate fields individually:
+
+- **String fields (code, date, descript..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"The evaluation treats the arrays as unordered collections, so each gold item can be aligned with any predicted item but each predicted item can only be used once. For each potential pair the score is ..."

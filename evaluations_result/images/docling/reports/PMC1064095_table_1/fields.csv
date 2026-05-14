@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.142857,false,,,,"There is one gold object and one predicted object.  The matching is performed field by field using string_exact for textual fields and number_exact for numeric fields.  Correct matches:
+- menopausal_s..."

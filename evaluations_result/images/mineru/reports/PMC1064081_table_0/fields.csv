@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.666700,false,,,,"We compare each of the six fields using the appropriate metric: string_exact for the node range, integer_exact for patient count, and number_exact for the percentages. The node range and patient count..."

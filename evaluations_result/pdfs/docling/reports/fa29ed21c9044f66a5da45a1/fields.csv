@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All eight gold items are present in the predicted array. The order differs, but array item matching is unordered. Each predicted item matches exactly one gold item on all four fields: date (string), q..."

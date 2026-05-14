@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"Each gold item has six fields: position, start_date, end_date, description, quantity, and unit_price_gross. The evaluation logic uses
+- ‘integer_exact’ for integer fields (position, quantity),
+- ‘numb..."

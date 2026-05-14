@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array consists of 7 unique date entries with a unit_price_gross of 3.0 for each. The predicted array duplicates each of those dates, providing two copies of each date. For matching, each gold..."

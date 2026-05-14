@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Examining the single gold entry, we compare it with each predicted item. The second predicted item matches on all fields: position (2 vs 2, integer exact), description (identical, semantic match), uni..."

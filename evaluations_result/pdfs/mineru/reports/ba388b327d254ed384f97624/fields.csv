@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.771429,true,,,,"The gold array contains 5 items, while the predicted array has 4 items. For each field (position, date_start, date_end, description, quantity, price_gross, unit_price_gross) a direct comparison is use..."

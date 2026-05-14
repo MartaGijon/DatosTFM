@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items. For each gold item, we search the predicted array for an item that maximizes the partial match score. A perfect match requires equality on all four fields: position ..."

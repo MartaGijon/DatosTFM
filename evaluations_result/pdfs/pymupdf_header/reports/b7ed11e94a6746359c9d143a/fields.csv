@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"All six predicted items match exactly a subset of the seven gold items. Each gold/predicted pair has two fields: 'date' and 'price_gross'. For the numeric field, the ""number_exact"" metric specifies eq..."

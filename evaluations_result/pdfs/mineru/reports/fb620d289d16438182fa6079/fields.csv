@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.971400,true,,,,"For each gold item we evaluated every field against all predicted items. Numerical fields (position, quantity, unit_price_gross, price_gross) were checked with integer_exact or number_exact rules, yie..."

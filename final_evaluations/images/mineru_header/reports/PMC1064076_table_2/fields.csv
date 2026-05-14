@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666500,false,,,,"Evaluating each field with the appropriate metric (exact string or exact number) gives the following outcomes.
+
+For each gold–predicted pair:
+- `menopausal_status`: Gold has ""Premenopausal"" whereas pr..."

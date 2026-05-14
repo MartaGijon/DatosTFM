@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold items find an exact duplicate in the predicted array. Each field—position, date_start, date_end, unit_price_gross, quantity, price_gross—matches perfectly, yielding a partial match score ..."

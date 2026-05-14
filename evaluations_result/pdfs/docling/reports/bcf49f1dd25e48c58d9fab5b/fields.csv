@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.944444,true,,,,"The evaluation treats each item as an unordered collection of fields, with per‑field passes determined by the most authoritative rule. For integer fields (position, quantity) the rule is `integer_exac..."

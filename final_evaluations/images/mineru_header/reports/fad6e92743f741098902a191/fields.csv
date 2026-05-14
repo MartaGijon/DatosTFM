@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items have identical fields to one predicted item each. The best alignment pairs gold position 1 with predicted position 1, gold position 2 with predicted position 2, and gold position ..."

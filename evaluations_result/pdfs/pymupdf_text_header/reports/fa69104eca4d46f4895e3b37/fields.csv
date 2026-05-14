@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"The gold array contains four identical objects split into two groups: two items with unit_price_gross 31.0 and position 1, and two items with unit_price_gross 29.0 and position 2. The predicted array ..."

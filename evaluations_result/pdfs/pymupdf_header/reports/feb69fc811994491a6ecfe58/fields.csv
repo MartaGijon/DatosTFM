@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains a single item. Each field is evaluated using the most appropriate metric: numeric fields with number_exact, integer fields with integer_exact, and the description string with s..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains the two gold items, merely reordered. Each field in the items matches exactly (or semantically for the description, which differs only in punctuation). For numeric and int..."

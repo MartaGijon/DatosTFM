@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The gold and predicted arrays each contain one object. For each of the three fields, the evaluation criteria use exact matching. The variant_allele strings ""(TTTA)>=10"" and ""CYP1?"" differ, the mothers..."

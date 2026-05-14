@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.953333,true,,,,"For each gold item we aligned with the predicted item that maximizes the partial match score. The gold and predicted arrays both contain three entries, and because the arrays are treated as unordered ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays contain the same three objects, just reordered. For each gold item, the algorithm finds a predicted item with identical field values. Both the primitive types and numeric..."

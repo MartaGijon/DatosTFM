@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays each contain eight identical items, four with the date ""Fri 10/30/20"" and price 15.0, and four with the date ""Sat 10/31/20"" and price 14.0. Since the arrays are treated a..."

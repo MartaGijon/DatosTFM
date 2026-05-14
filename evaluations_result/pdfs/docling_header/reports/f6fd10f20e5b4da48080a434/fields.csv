@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.200000,false,,,,"The gold array contains six items, four of which share the same description ""HAWAII NEWS NOW @9P KFVE"" and position 3, and one item with description ""HAWAII NEWS NOW @630P KFVE"" and position 2. The pr..."

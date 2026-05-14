@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"The evaluation compares each gold item to the best‑matching predicted item by measuring every field. Numerical fields use the `number_exact` metric, which requires exact numerical equality after coerc..."

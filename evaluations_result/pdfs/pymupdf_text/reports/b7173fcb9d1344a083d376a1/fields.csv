@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All seven gold items have direct counterparts in the predicted array. The numerical fields (unit_price_gross, quantity, price_gross) are identical for each matched pair, satisfying the exact‑number an..."

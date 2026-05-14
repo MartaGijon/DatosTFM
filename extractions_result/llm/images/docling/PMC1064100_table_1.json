@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "gene_variant": "CYP17 1/0",
+            "mother_carrier_status": "Carrier",
+            "father_carrier_status": "Not Unknown",
+            "number_affected_daughters": 152,
+            "number_unaffected_daughters": 129,
+            "total_daughters": 281,
+            "total_families": 1
+        }
+    ]
+}

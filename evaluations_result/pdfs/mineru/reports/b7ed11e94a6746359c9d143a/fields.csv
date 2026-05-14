@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Cada elemento del arreglo de oro tiene dos campos: ""date"" y ""price_gross"". Ambos campos coinciden exactamente con los del mismo índice en el arreglo predicho. Se aplican las evaluaciones de campo: el ..."

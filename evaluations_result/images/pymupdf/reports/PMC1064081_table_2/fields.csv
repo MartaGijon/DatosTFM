@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.035714,false,,,,"The predicted array contains a single item. We evaluate each field against the gold items to find the best match. The gold array has 14 items, two of which have <model_id>""4:"" and <variables>""np, nx""...."

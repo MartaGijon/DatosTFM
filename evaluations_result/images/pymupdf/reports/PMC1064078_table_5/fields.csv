@@ -1,0 +1,7 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.062500,false,,,,"The evaluation considers each field according to its type:
+- Strings are compared with string_exact.
+- Integer values use integer_exact.
+- Numeric values use number_exact.
+
+All gold items share the sa..."

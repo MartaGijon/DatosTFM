@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The comparison was performed field‑by‑field for each gold item. 
+
+**Field evaluation rules**: 
+- `date` is a string, so a perfect match uses the string_semantic metric (exact match gives 1.0). 
+- `amo..."

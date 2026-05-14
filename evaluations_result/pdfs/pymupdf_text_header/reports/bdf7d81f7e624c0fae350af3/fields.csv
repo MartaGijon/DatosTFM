@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items have been matched with corresponding predicted items. Each pair has identical values for every field: description, date, unit_price_gross, position, and quantity. Consequently, fo..."

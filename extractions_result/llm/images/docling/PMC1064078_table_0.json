@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "dataset_name": "Maternal age dataset",
+            "birth_order": "Birth order",
+            "maternal_age": "Maternal age",
+            "cases_count": 191,
+            "cases_percentage": 39.1,
+            "controls_count": 181,
+            "controls_percentage": 39.5
+        }
+    ]
+}

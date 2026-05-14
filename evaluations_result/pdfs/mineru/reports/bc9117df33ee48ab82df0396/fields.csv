@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"The evaluation uses exact matching for the numeric fields with the ""number_exact"" metric, and exact string matching for the string fields with the ""string_exact"" metric, as this is the simplest conser..."

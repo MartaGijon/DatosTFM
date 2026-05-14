@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The single gold item and the single predicted item contain identical values for all six fields. Each field is evaluated with its appropriate exact metric: strings use `string_exact`, integers use `int..."

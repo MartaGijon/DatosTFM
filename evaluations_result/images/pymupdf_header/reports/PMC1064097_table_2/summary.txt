@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: PMC1064097_table_2
+Timestamp: 2026-05-13T17:26:49.261231
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 0.778
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 12
+  Required Keys: 10
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 5, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 9
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.778
+  Median Score: 0.778
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.778
+      Reason: The evaluator considered each field of the sole gold item against the corresponding fields of the si...
+
+================================================================================

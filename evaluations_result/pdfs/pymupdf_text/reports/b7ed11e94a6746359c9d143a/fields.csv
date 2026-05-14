@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All seven entries in the gold array are identical to the seven entries in the predicted array. Treating the arrays as unordered collections, each gold item can be matched with a distinct predicted ite..."

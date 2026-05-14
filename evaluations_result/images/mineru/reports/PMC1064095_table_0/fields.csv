@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"There is only one item in each array. For each field we apply the corresponding metric: string_exact for textual values and number_exact for numeric values. The ""pcb_level"", ""patients_controls"", ""conf..."

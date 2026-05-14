@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items are present in the predicted array, each with identical fields.  For every paired item: the date string matches exactly (string_semantic scorer yields 1.0), the quantity integer matches..."

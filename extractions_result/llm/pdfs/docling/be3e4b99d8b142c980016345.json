@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "transaction_date": "11/02/2020",
+            "description": "JOBS REVISED",
+            "duration_minutes": 30,
+            "unit_price_gross": 14.04,
+            "price_gross": 14.04,
+            "position": 3
+        },
+        {
+            "transaction_date": "11/02/2020",
+            "description": "TAXES",
+            "duration_minutes": 30,
+            "unit_price_gross": 14.33,
+            "price_gross": 14.33,
+            "position": 4
+        },
+        {
+            "transaction_date": "11/03/2020",
+            "description": "JOBS REVISED",
+            "duration_minutes": 30,
+            "unit_price_gross": 15.03,
+            "price_gross": 15.03,
+            "position": 5
+        },
+        {
+            "transaction_date": "11/01/2020",
+            "description": "JOBS REVISED",
+            "duration_minutes": 30,
+            "unit_price_gross": 17.17,
+            "price_gross": 17.17,
+            "position": 1
+        },
+        {
+            "transaction_date": "11/01/2020",
+            "description": "TAXES",
+            "duration_minutes": 30,
+            "unit_price_gross": 18.16,
+            "price_gross": 18.16,
+            "position": 2
+        },
+        {
+            "transaction_date": "11/03/2020",
+            "description": "TAXES",
+            "duration_minutes": 30,
+            "unit_price_gross": 17.03,
+            "price_gross": 17.03,
+            "position": 6
+        }
+    ]
+}

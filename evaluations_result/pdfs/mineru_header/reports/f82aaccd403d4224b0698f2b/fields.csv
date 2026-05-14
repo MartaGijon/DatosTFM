@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.954545,true,,,,"The evaluation was performed by pairing each gold item with the best matching predicted item, respecting that a predicted item can only be paired once. Each field was assessed with the appropriate met..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains exactly the same four objects as the gold array, though in a different order.  Arrays are considered unordered, so each gold item can be matched to a unique predicted item..."

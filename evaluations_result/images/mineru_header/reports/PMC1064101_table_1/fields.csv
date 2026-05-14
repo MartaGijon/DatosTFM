@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333350,false,,,,"The gold array has two items: one for Ca ductale (case_count=37, frequency_percentage=72.5) and one for Ca lobulare (case_count=8, frequency_percentage=15.7). The predicted array contains six items wi..."

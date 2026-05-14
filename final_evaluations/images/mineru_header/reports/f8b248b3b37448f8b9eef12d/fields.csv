@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"El único ítem de oro se alinea mejor con el segundo ítem predicho. Se revisaron cada uno de los 7 campos: posición (coincide exactamente), fecha de inicio (exacta), fecha de fin (no coincide), descrip..."

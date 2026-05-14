@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "carcinoma_type": "Carcinoma",
+            "location": "Medu ary",
+            "number_tested": 4,
+            "hpv_dna_positive": 0
+        },
+        {
+            "carcinoma_type": "Carcinoma",
+            "location": "Irasiv duclal",
+            "number_tested": 16,
+            "hpv_dna_positive": 10
+        },
+        {
+            "carcinoma_type": "Carcinoma",
+            "location": "Tubular",
+            "number_tested": 3,
+            "hpv_dna_positive": 0
+        },
+        {
+            "carcinoma_type": "Carcinoma",
+            "location": "Lotuler",
+            "number_tested": 0,
+            "hpv_dna_positive": 0
+        }
+    ]
+}

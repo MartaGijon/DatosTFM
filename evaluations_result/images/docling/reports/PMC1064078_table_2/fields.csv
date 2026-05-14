@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"There are two gold items and two predicted items, so the alignment problem is trivial. The best pairing is obtained by matching the lower tertile gold entry with the first predicted entry and the uppe..."

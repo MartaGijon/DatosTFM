@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold and predicted arrays each contain a single object. All fields match exactly except the ""position"" field, which is 1 in the gold object and 2 in the predicted object. Therefore, 3 out of 4 fie..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The single gold item contains three fields: log_odds_range (string), number_of_patients_at_risk (integer), and breast_cancer_mortality_rate (number). For each field, the relevant metric is string_exac..."

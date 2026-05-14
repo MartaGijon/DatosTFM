@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted list contains exactly the same eight objects as the gold list, with all four fields identical in each pair. Treating the arrays as unordered collections, every gold item finds a predicte..."

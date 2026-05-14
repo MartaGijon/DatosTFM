@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both arrays contain the same 22 unique positions.  For every gold item there exists a predicted item with identical numeric fields (unit_price_gross, quantity, price_gross) and which is considered the..."

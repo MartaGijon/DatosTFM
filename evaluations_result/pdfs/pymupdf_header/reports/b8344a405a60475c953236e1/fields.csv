@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.533333,false,,,,"The evaluation treats each gold item as a 3‑field object (description, quantity, unit_price_gross). 
+
+For each gold pair we first look for an identical predicted item, since all numeric values are exa..."

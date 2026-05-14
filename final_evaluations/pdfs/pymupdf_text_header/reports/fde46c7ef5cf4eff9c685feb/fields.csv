@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items have exactly the same values for every field as one of the predicted items. Because the arrays are unordered, each gold item can be paired with a unique predicted item that matche..."

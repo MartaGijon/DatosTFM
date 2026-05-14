@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.714286,true,,,,"We compared each gold item to every predicted item, treating strings with different time ranges as semantically matching if the core description (e.g., ""KWWL 4a News"") is present. We used exact numeri..."

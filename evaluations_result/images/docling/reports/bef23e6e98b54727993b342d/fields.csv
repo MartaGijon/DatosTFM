@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The gold array contains one item with numeric fields unit_price_gross, unit_price_net, and quantity. The predicted array also contains one item but each of these fields differs drastically from the go..."

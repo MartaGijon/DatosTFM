@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The gold array has two items. Each predicted item can be paired with a gold item to maximize the sum of field-wise partial match scores.
+
+**Field evaluation rules**:
+- For numeric fields (`quantity`, ..."

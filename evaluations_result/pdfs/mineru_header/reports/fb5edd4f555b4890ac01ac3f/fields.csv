@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items and the predicted array also contains two items. 
+
+- For Gold item 1 (position 2) the best match is Predicted item 2 because all fields are identical apart from the d..."

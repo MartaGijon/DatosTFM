@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.333333,false,,,,"The gold array contains one item and the predicted array also contains one item, so a single pairing is required. Each field was compared using the most appropriate metric: string_exact for textual fi..."

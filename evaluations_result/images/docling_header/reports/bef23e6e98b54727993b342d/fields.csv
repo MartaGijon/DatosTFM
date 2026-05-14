@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The gold array contains a single item with three numeric fields. The predicted array also contains one item, but all three numeric values differ from the gold values. Using the ""number_exact"" metric f..."

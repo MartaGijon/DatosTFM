@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "variant_allele": "C",
+            "estimated_allele_frequency_percent": 15.2,
+            "recessive_model_odds_ratio": 1.66,
+            "recessive_model_p_value": 0.032
+        }
+    ]
+}

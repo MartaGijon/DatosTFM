@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold array item has exactly four comparable fields: `description`, `quantity`, `unit_price_gross`, and `price_gross`.  For every pair we evaluated the fields with the available metrics:
+
+- `quant..."

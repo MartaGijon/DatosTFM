@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"For each gold item we aligned the predicted item with the most similar fields. The position, quantity, unit_price_gross, and price_gross match exactly (integer_exact or number_exact). The description ..."

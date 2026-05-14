@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items and predicted items have identical fields with the same values. Each field is compared using its default exact-ness metric: integers use integer_exact, floats use number_exact, and stri..."

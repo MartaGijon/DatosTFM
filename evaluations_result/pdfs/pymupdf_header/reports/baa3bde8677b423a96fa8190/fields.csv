@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items have identical numeric fields to the corresponding predicted items: unit_price_gross, quantity, and price_gross all match exactly, giving a numeric score of 1.0 per field.  The des..."

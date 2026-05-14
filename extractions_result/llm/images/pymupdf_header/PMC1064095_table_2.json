@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "pcb_level": ">=0.430",
+            "genotype": "AryMa",
+            "patients_controls": "20/21",
+            "odds_ratio": 1.8,
+            "confidence_interval": "0.6-4.7"
+        },
+        {
+            "pcb_level": ">=0.430",
+            "genotype": "Non-haa",
+            "patients_controls": "105/100",
+            "odds_ratio": 1.6,
+            "confidence_interval": "0.8-3.2"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"The gold array has 4 items, each containing the dates ""11/03/18"" or ""11/04/18"" with identical descriptions, codes, and unit_price_gross values. The predicted array contains exactly the same 4 items. F..."

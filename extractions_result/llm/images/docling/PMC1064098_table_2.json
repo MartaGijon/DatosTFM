@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "cell_type": "GAF-4",
+            "igf_ii_level": 11.27,
+            "mean_igf_ii_level": 11.42
+        },
+        {
+            "cell_type": "CAF-?",
+            "igf_ii_level": 10.59,
+            "mean_igf_ii_level": 11.42
+        },
+        {
+            "cell_type": "CAF5",
+            "igf_ii_level": 10.21,
+            "mean_igf_ii_level": 11.42
+        },
+        {
+            "cell_type": "CAF3",
+            "igf_ii_level": 10.59,
+            "mean_igf_ii_level": 11.42
+        },
+        {
+            "cell_type": "CAF",
+            "igf_ii_level": 11.8,
+            "mean_igf_ii_level": 11.42
+        }
+    ]
+}

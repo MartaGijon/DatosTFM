@@ -1,0 +1,432 @@
+{
+  "output_name": "f8e93ada4dbf4e6098fe5d90",
+  "timestamp": "2026-05-14T08:58:26.580918",
+  "schema_hash": "b79c278a",
+  "gold_hash": "bb3765bb",
+  "extracted_hash": "eeb85c26",
+  "schema_stats": {
+    "total_nodes": 9,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "required_keys_count": 7,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 121,
+    "counts_by_type": {
+      "array": 1,
+      "integer": 40,
+      "string": 40,
+      "number": 40
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 20,
+      "min_length": 20,
+      "median_length": 20,
+      "max_length": 20
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 1,
+    "counts_by_type": {
+      "array": 1
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 0,
+      "min_length": 0,
+      "median_length": 0,
+      "max_length": 0
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 0,
+    "missing_in_extracted": 120,
+    "spurious_in_extracted": 1,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[0].date",
+      "items[0].description",
+      "items[0].position",
+      "items[0].price_gross",
+      "items[0].quantity",
+      "items[0].unit_price_gross",
+      "items[10].date",
+      "items[10].description",
+      "items[10].position",
+      "items[10].price_gross",
+      "items[10].quantity",
+      "items[10].unit_price_gross",
+      "items[11].date",
+      "items[11].description",
+      "items[11].position",
+      "items[11].price_gross",
+      "items[11].quantity",
+      "items[11].unit_price_gross",
+      "items[12].date",
+      "items[12].description",
+      "items[12].position",
+      "items[12].price_gross",
+      "items[12].quantity",
+      "items[12].unit_price_gross",
+      "items[13].date",
+      "items[13].description",
+      "items[13].position",
+      "items[13].price_gross",
+      "items[13].quantity",
+      "items[13].unit_price_gross",
+      "items[14].date",
+      "items[14].description",
+      "items[14].position",
+      "items[14].price_gross",
+      "items[14].quantity",
+      "items[14].unit_price_gross",
+      "items[15].date",
+      "items[15].description",
+      "items[15].position",
+      "items[15].price_gross",
+      "items[15].quantity",
+      "items[15].unit_price_gross",
+      "items[16].date",
+      "items[16].description",
+      "items[16].position",
+      "items[16].price_gross",
+      "items[16].quantity",
+      "items[16].unit_price_gross",
+      "items[17].date",
+      "items[17].description",
+      "items[17].position",
+      "items[17].price_gross",
+      "items[17].quantity",
+      "items[17].unit_price_gross",
+      "items[18].date",
+      "items[18].description",
+      "items[18].position",
+      "items[18].price_gross",
+      "items[18].quantity",
+      "items[18].unit_price_gross",
+      "items[19].date",
+      "items[19].description",
+      "items[19].position",
+      "items[19].price_gross",
+      "items[19].quantity",
+      "items[19].unit_price_gross",
+      "items[1].date",
+      "items[1].description",
+      "items[1].position",
+      "items[1].price_gross",
+      "items[1].quantity",
+      "items[1].unit_price_gross",
+      "items[2].date",
+      "items[2].description",
+      "items[2].position",
+      "items[2].price_gross",
+      "items[2].quantity",
+      "items[2].unit_price_gross",
+      "items[3].date",
+      "items[3].description",
+      "items[3].position",
+      "items[3].price_gross",
+      "items[3].quantity",
+      "items[3].unit_price_gross",
+      "items[4].date",
+      "items[4].description",
+      "items[4].position",
+      "items[4].price_gross",
+      "items[4].quantity",
+      "items[4].unit_price_gross",
+      "items[5].date",
+      "items[5].description",
+      "items[5].position",
+      "items[5].price_gross",
+      "items[5].quantity",
+      "items[5].unit_price_gross",
+      "items[6].date",
+      "items[6].description",
+      "items[6].position",
+      "items[6].price_gross",
+      "items[6].quantity",
+      "items[6].unit_price_gross",
+      "items[7].date",
+      "items[7].description",
+      "items[7].position",
+      "items[7].price_gross",
+      "items[7].quantity",
+      "items[7].unit_price_gross",
+      "items[8].date",
+      "items[8].description",
+      "items[8].position",
+      "items[8].price_gross",
+      "items[8].quantity",
+      "items[8].unit_price_gross",
+      "items[9].date",
+      "items[9].description",
+      "items[9].position",
+      "items[9].price_gross",
+      "items[9].quantity",
+      "items[9].unit_price_gross"
+    ],
+    "spurious_paths": [
+      "items"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": "extracted_empty_array",
+      "gold_value": [
+        {
+          "position": 2,
+          "date": "Tu/F,M 1p/2p",
+          "description": "TMZ Live",
+          "unit_price_gross": 35.0,
+          "quantity": 1,
+          "price_gross": 35.0
+        },
+        {
+          "position": 1,
+          "date": "Tu/F,M 7a/8a",
+          "description": "WCTI Morning News on Fox",
+          "unit_price_gross": 40.0,
+          "quantity": 2,
+          "price_gross": 80.0
+        },
+        {
+          "position": 3,
+          "date": "Tu/F,M 2p/2:30p",
+          "description": "Hot Bench",
+          "unit_price_gross": 45.0,
+          "quantity": 1,
+          "price_gross": 45.0
+        },
+        {
+          "position": 19,
+          "date": "Tu/F,M 11p/11:30p",
+          "description": "TMZ",
+          "unit_price_gross": 45.0,
+          "quantity": 2,
+          "price_gross": 90.0
+        },
+        {
+          "position": 4,
+          "date": "Tu/F,M 2:30p/3p",
+          "description": "Hot Bench",
+          "unit_price_gross": 50.0,
+          "quantity": 2,
+          "price_gross": 100.0
+        },
+        {
+          "position": 7,
+          "date": "Tu/F,M 4p/5p",
+          "description": "Maury",
+          "unit_price_gross": 55.0,
+          "quantity": 1,
+          "price_gross": 55.0
+        },
+        {
+          "position": 14,
+          "date": "Sa 7p/7:30p",
+          "description": "Big Bang Theory",
+          "unit_price_gross": 190.0,
+          "quantity": 1,
+          "price_gross": 190.0
+        },
+        {
+          "position": 18,
+          "date": "Sa 11:30p/12m",
+          "description": "FOX Eastern Carolina News 10p Sat",
+          "unit_price_gross": 205.0,
+          "quantity": 1,
+          "price_gross": 205.0
+        },
+        {
+          "position": 13,
+          "date": "Su 10p/10:30p",
+          "description": "FOX Eastern Carolina News 10p Sun",
+          "unit_price_gross": 210.0,
+          "quantity": 1,
+          "price_gross": 210.0
+        },
+        {
+          "position": 15,
+          "date": "Tu/F,M 7:30p/8p",
+          "description": "Big Bang Theory",
+          "unit_price_gross": 240.0,
+          "quantity": 2,
+          "price_gross": 480.0
+        },
+        {
+          "position": 16,
+          "date": "Tu/F,M 10p/10:30p",
+          "description": "FOX Eastern Carolina News 10p",
+          "unit_price_gross": 245.0,
+          "quantity": 2,
+          "price_gross": 490.0
+        },
+        {
+          "position": 12,
+          "date": "Tu/F,M 10:30p/11p",
+          "description": "FOX Eastern Carolina News 10p",
+          "unit_price_gross": 245.0,
+          "quantity": 5,
+          "price_gross": 1225.0
+        },
+        {
+          "position": 12,
+          "date": "Tu/F,M 7p/7:30p",
+          "description": "Big Bang Theory",
+          "unit_price_gross": 250.0,
+          "quantity": 3,
+          "price_gross": 750.0
+        },
+        {
+          "position": 25,
+          "date": "Su 12n/1p",
+          "description": "FOX NFL SUNDAY",
+          "unit_price_gross": 350.0,
+          "quantity": 1,
+          "price_gross": 350.0
+        },
+        {
+          "position": 25,
+          "date": "F 8p/10p",
+          "description": "Friday Night SmackDown/FOX",
+          "unit_price_gross": 430.0,
+          "quantity": 1,
+          "price_gross": 430.0
+        },
+        {
+          "position": 32,
+          "date": "Sa 12n/3:30p",
+          "description": "COLLEGE FOOTBALL EARLY",
+          "unit_price_gross": 550.0,
+          "quantity": 1,
+          "price_gross": 550.0
+        },
+        {
+          "position": 23,
+          "date": "Tu 8p/9p",
+          "description": "COSMOS: POSSIBLE WORLDS",
+          "unit_price_gross": 550.0,
+          "quantity": 1,
+          "price_gross": 550.0
+        },
+        {
+          "position": 31,
+          "date": "M 8p/9p",
+          "description": "L.A.'S FINEST",
+          "unit_price_gross": 800.0,
+          "quantity": 1,
+          "price_gross": 800.0
+        },
+        {
+          "position": 30,
+          "date": "Th 8:20p/11:30p",
+          "description": "Thursday Night Football",
+          "unit_price_gross": 1820.0,
+          "quantity": 1,
+          "price_gross": 1820.0
+        },
+        {
+          "position": 27,
+          "date": "Su 1p/4:25p",
+          "description": "FOX NFL EARLY GAME",
+          "unit_price_gross": 4115.0,
+          "quantity": 1,
+          "price_gross": 4115.0
+        }
+      ],
+      "extracted_value": [],
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

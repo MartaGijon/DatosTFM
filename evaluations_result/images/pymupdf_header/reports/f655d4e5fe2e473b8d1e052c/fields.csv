@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.656000,false,,,,"Each gold item is compared to every predicted item using five scalar fields: code, description, quantity, unit_price_net, and amount_net. Exact equality is required for each field, judged by the respe..."

@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.300000,false,,,,"We evaluated each gold record against each predicted record using per‑field rules:
+
+- `pcb_level`, `genotype`, `patients_controls`, and `confidence_interval` are compared with the `string_exact` rule ..."

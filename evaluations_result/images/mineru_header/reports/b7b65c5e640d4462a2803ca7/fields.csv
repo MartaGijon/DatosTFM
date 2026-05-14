@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.400000,false,,,,"The evaluation focuses on per‑field matches across the gold and predicted arrays. For numeric fields the ""integer_exact"" rule is applied, for floating‑point fields the ""number_exact"" rule, and for tex..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.650000,false,,,,"The comparison is performed field‑by‑field for each item, treating the array as an unordered collection. Each gold and predicted item consists of four fields: date, quantity, unit_price_gross, and pri..."

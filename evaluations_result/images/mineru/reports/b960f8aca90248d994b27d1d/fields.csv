@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains an identical multiset of items as the gold array – eight entries, all with description ""Spot"", unit_price_gross 35.0 and dates 8/21/2018, 8/22/2018, 8/23/2018, 8/24/2018 e..."

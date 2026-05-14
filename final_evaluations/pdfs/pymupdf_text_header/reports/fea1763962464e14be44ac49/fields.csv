@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items: one dated 10/22/20 and the other 10/23/20, each with quantity 5, unit_price_gross 24.0, and price_gross 120.0. The predicted array includes the same two items but in..."

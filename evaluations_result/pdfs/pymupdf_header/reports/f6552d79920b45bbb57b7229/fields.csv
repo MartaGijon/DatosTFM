@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"The gold and predicted arrays each contain six objects.  For each pair, the score is calculated field‑by‑field.  The numeric fields (start_date, end_date, quantity, unit_price_gross, price_gross) matc..."

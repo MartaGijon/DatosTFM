@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items have identical fields to the four predicted items, regardless of ordering. Each gold item can be paired with one predicted item where every field (position, date, date_end, unit_pr..."

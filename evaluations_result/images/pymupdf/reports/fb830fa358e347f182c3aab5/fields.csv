@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.875000,true,,,,"The gold and predicted arrays each contain 24 items. Matching is performed on the fields “date”, “description” and “unit_price_gross”. 
+
+All dates match exactly. “Unit_price_gross” is the same numeric..."

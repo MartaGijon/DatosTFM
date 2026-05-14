@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.840000,true,,,,"The gold array has five items, each with five fields: position, description, unit_price_gross, quantity, and price_gross. For every gold item I searched the predicted array for the best match that max..."

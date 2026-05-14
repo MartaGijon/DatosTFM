@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"There is one gold item and one predicted item, so the best alignment pairs them directly. Field-by-field evaluation:
+- **position**: integer_exact – 2 equals 2 → 1.0
+- **date_start**: string_exact – ""..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"The gold array contains seven price objects, each with a `date` and a `unit_price_gross` of 3.0. The predicted array provides six of those dates in a slightly different string format (slashes vs dashe..."

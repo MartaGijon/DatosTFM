@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items have identical counterparts in the predicted array. Each predicted object matches its gold counterpart exactly across all fields (position, date, date_end, unit_price_gross). Using the ..."

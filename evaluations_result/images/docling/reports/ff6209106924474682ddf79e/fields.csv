@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.619048,false,,,,"The evaluation treats the arrays as unordered collections and matches items by their fields. Each field is evaluated with exact matching rules (numeric and integer equality, literal string equality). ..."

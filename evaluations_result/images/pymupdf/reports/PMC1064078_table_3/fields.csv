@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.212500,false,,,,"The four predicted items were aligned with the gold items that maximised the sum of partial match scores while respecting the one‑to‑one pairing rule. 
+
+1. **Predicted 2** paired with **Gold 1** (Afri..."

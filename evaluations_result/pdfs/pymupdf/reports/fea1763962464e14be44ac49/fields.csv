@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold and predicted arrays contain the exact same two entries with identical values for all four fields (date, quantity, unit_price_gross, price_gross). Therefore, each gold item can be perfectly ..."

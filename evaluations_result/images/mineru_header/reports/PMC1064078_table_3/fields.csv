@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.450000,false,,,,"The predicted array contains four items, each corresponding exactly to one of the four gold items that share identical values for all fields except the adjustment_model. For each pair, all 10 fields m..."

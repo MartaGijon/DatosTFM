@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains eight identical objects: four with date ""Fri 10/30/20"", description ""FIGHTING FOR FAIRBANKS"", price_gross 15.0, and four with date ""Sat 10/31/20"", description ""FIGHTING FOR FAI..."

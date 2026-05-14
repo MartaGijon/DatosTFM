@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"There are 3 gold items and 3 predicted items, and the arrays are unordered so we can freely pair items to maximize the total match score. For each field we use the default numeric and integer exact ma..."

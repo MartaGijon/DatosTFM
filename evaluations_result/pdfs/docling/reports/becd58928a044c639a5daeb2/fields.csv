@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.928571,true,,,,"All gold entries share identical field values (date, description, amount_net). Pairing is limited only by the counts of each date. The predicted array has one less ""07/20/20"" entry than the gold array..."

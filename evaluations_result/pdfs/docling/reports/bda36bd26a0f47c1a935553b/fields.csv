@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"All gold items share the same numeric values except one differs in quantity (5 versus 4). Each predicted item matches those numeric fields exactly, but the string fields ('code' and 'description') do ..."

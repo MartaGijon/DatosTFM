@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items have an exact match in the predicted array. The predicted items are simply ordered the same as the gold items but transposed, so each gold item can be paired with its corresponding pred..."

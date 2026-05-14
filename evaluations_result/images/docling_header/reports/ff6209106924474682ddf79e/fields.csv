@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666714,false,,,,"Each gold item has a unique date that matches exactly one predicted item. The match score for a pair is the fraction of exactly equal fields among date, quantity and price_gross. 
+
+Gold‑1 (date 1) vs ..."

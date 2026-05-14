@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.967273,true,,,,"The evaluation aligns each gold item with the predicted item that shares the same ""position"" value, as this yields the highest per‑item partial match scores.  All 22 gold positions are present in the ..."

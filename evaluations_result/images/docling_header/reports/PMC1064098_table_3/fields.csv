@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.305550,false,,,,"The gold and predicted arrays contain objects with 6 fields each. Using the supplied metric definitions, string fields are compared with exact case-sensitive equality (string_exact) and numeric fields..."

@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "race": "White",
+            "dataset_type": "Cases",
+            "tertile": "Upper",
+            "adjustment_model": "Fully Adjusted (ORb)",
+            "group_type": "Case",
+            "n_cases": 37,
+            "n_controls": 24,
+            "odds_ratio": 0.9,
+            "ci_lower": 0.4,
+            "ci_upper": 2.0
+        },
+        {
+            "race": "African-American",
+            "dataset_type": "Cases",
+            "tertile": "Upper",
+            "adjustment_model": "Fully Adjusted (ORb)",
+            "group_type": "Case",
+            "n_cases": 30,
+            "n_controls": 36,
+            "odds_ratio": 0.9,
+            "ci_lower": 0.8,
+            "ci_upper": 2.1
+        }
+    ]
+}

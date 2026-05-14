@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"We evaluate each field of every gold item against a predicted item using the specified metrics. For the description field, identical text strings receive a perfect semantic match (score 1). Numeric an..."

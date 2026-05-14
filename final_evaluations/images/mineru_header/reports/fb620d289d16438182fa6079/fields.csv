@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"The evaluation considers each gold item and evaluates each of its 7 fields against the best‑matching predicted item. Numeric fields are compared with exact number and integer checks, date strings with..."

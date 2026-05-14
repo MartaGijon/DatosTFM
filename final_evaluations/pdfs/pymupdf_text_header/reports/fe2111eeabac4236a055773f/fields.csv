@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold and predicted arrays each contain a single object. For the sole pair, the four fields were evaluated: 
+- unit_price_gross: 120.0 vs 120.0 – exact numeric match passes (number_exact). 
+- quant..."

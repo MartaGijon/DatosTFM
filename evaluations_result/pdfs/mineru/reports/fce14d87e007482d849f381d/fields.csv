@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items exactly match the two predicted items; the arrays are unordered, so each gold item can pair with the same-valued predicted item. The only difference is the order; since ordering is ign..."

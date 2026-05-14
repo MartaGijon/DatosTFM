@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"The gold and predicted arrays contain objects with seven fields. Each field is evaluated with its most suitable metric:
+- Integer fields (position, quantity) use integer_exact.
+- Floating‑point fields..."

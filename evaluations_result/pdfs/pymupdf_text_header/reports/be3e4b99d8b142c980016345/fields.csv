@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"For each gold entry the best possible match in the predicted array is found by maximizing the per-field pass count. All gold items have a corresponding predicted item with identical transaction_date, ..."

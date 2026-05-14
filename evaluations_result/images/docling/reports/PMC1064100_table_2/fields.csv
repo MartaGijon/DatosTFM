@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"The gold array contains a single variant record. For each field, the comparison uses the appropriate metric: string_exact for the allele string and number_exact for the numeric fields. The allele matc..."

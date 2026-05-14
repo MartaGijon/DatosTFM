@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The prediction list contains exactly one item for each gold item, with the same values for the numeric fields (position, quantity, unit_price_gross). The only inconsistency is the date string: the gol..."

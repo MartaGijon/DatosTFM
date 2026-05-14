@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"There is one gold item and one predicted item, so the optimal pairing is straightforward. Each field is evaluated using the most appropriate metric inferred from the field type: exact string matches f..."

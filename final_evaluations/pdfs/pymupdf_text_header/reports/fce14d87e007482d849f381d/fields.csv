@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items exactly match the two predicted items. For each field, the values are identical: position (integer), date_start (string), date_end (string), unit_price_gross (number), quantity (intege..."

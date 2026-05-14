@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'age_category': '<50', 'tumor_size_category': 'T1', 'low_expression_count': 20, 'low_expression_percentage': 56.0, 'high_expression_count': 16, 'high_expression_percentage': 33.0}, {'age_category': '<50', 'tumor_size_category': 'T1', 'low_expression_count': 16, 'low_expression_percentage': 44.0, 'high_expression_count': 17, 'high_expression_percentage': 35.0}]",[],extracted_empty_array,

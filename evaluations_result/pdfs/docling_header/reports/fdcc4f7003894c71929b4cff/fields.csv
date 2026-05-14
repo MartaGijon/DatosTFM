@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold record consists of three simple fields: date, description, and price_gross. Since the schema provides no special evaluation_config, we conservatively apply the most specific metric definitio..."

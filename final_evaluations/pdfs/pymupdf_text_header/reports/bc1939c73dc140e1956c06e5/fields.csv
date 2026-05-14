@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.985000,true,,,,"The evaluation process treated the arrays as unordered collections and aligned each gold item with the predicted item that maximized its partial match score. For each field, the pass criteria were: in..."

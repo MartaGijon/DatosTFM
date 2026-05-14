@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items: 
+1. Feature ""Age"" with odds ratios 0.94 for BRCA1 and BRCA2 and p‑values 0.0012 and 0.0001.
+2. Feature ""Grade"" with odds ratio 3.25 for BRCA1 and 0.0 for BRCA2, p‑va..."

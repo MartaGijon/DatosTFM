@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"We evaluated each gold item against all predicted items, computing a field‑by‑field pass score using the appropriate metric definitions: integer_exact for integer fields, number_exact for numeric fiel..."

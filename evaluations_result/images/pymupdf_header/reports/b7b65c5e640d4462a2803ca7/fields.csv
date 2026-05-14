@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.900000,true,,,,"I compared each gold item to every predicted item, scoring each field according to its metric:
+- 
+- `position`: integer_exact (exact integer equality)
+- `start_date` & `end_date`: string_semantic (sem..."

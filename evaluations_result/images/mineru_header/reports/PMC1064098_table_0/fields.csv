@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"All fields‐by‐fields comparison between each gold item and every predicted item shows no exact matches. The ""culture_group"" field differs in every pair because the predicted items include the prefix ""..."

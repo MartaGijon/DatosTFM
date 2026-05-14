@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both arrays contain the same four objects, only reordered. For every gold object there exists a predicted object with identical values for all four fields: position (integer), date (string), date_2 (s..."

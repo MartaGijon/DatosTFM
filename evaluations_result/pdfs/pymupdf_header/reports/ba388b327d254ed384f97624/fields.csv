@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All predicted items contain exactly the same values as the gold items, though in a different order. When pairing each gold item with a predicted item that has identical values for every field, every p..."

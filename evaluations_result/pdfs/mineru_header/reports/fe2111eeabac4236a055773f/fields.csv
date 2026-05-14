@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"Evaluating each field with the appropriate metric: unit_price_gross, quantity, and price_gross match exactly using number_exact or integer_exact, yielding 3 passing fields. The position field differs ..."

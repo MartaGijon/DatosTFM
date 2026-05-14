@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The single predicted item contains feature_name ""Grade (continuous)"" and all numeric values set to 1.0. None of the gold items have identical feature names (""Age"" or ""Grade"") and the numeric fields ar..."

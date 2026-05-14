@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.875000,true,,,,"There is one gold item and one predicted item, so we pair them directly. Using the metric definitions, string fields are evaluated with string_exact, integer fields with integer_exact, and numeric fie..."

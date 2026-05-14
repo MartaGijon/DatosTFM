@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The predicted array contains only two items whose codes, descriptions, quantities, unit prices, and amounts do not correspond to any item in the gold array. For each gold item, any possible pairing wi..."

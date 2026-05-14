@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"The gold and predicted arrays each contain five items with identical structure: {position, code, unit_price_gross, quantity, price_gross, description}. For each field, standard comparison metrics were..."

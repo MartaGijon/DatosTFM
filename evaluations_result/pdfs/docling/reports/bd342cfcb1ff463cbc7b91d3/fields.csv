@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"The evaluation was performed on four fields: date (exact string match), amount_net (number_exact), quantity (integer_exact), and price_gross (number_exact).  For each gold item we sought a predicted i..."

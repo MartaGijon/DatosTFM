@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"I evaluated each gold item against the predicted items field‑by‑field. All items share identical values for position, code, unit_price_gross, and description, except that the description in the predic..."

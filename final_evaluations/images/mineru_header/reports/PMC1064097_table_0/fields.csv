@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The gold array contains a single item and the predicted array also contains one item, so we can directly pair them. Each key-value pair is a primitive string, and according to the ""string_exact"" metri..."

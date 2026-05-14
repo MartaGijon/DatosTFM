@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.033333,false,,,,"Para comparar los elementos del array de oro con el array de predicción se evaluó cada campo con el métrico apropiado. El campo ""date"" se compara con el métrico string_semantic; las fechas del set de ..."

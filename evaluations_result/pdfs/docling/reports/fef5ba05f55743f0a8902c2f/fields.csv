@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each predicted item matches a gold item with identical values for all four fields: date, position, description, and unit_price_net. Since arrays are treated as unordered collections, we can pair each ..."

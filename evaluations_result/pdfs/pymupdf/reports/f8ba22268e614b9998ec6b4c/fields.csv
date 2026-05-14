@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items exactly match the corresponding predicted items in every field (position, date, date_2, unit_price_gross). Since each pair achieves full field agreement, each partial match score i..."

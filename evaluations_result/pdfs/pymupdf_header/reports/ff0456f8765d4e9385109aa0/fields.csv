@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"In each gold item there are six fields: position, quantity, date, description, unit_price_gross, and price_gross. The predicted array contains 37 items, each with the same position (1) and unit_price_..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items are identical to the two predicted items except that their 'position' attributes are swapped. Each gold item can therefore be paired with a predicted item that matches all fields, yiel..."

@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.875000,true,,,,"Two gold items each have four scalar fields: a string, two integers, and a float. Using the metric definitions, we compare each field as follows: 
+- ``expression_group`` uses ``string_exact`` and must..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.050000,false,,,,"Out of the 8 gold items, only the 'race' field matches the predicted items, as all other fields differ in values or type. Each matched pair therefore receives a partial match score of 1 out of 10 fiel..."

@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"Evaluamos cada elemento del array de oro contra los elementos del array predicho. Se utilizan las métricas definidas: 
+
+- histology_type (string_exact): requiere coincidencia exacta y sensible a mayús..."

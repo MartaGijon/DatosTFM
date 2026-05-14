@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The evaluation uses 'string_exact' for all string fields, 'number_exact' for numeric fields, and 'boolean_exact' for the Boolean field 'reference'.  For each gold–predicted pair the number of fields t..."

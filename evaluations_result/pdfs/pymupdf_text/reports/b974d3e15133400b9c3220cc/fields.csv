@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"For each gold record, the date string in the predicted record contains the same numeric date plus a weekday label (e.g., ""5/13/2021"" vs ""Thu 5/13/2021""). Using the ""string_semantic"" metric, these are ..."

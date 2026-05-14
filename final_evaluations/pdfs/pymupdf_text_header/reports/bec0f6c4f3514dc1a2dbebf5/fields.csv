@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"All three gold items have exactly one corresponding predicted item when we ignore the position field. The position values differ (22 vs 1, 23 vs 2, 24 vs 3), so the integer_exact rule fails for that f..."

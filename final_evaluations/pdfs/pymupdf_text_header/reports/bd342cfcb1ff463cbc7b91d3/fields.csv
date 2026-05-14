@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"The evaluation proceeds by matching each gold item to the best‑scoring predicted item, treating the array as unordered. For each field the pass condition follows the metric definitions: strings use st..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The evaluation treats both arrays as unordered, so each gold item is paired to the predicted item that yields the maximum partial match score. For each field we use exact string matching for text fiel..."

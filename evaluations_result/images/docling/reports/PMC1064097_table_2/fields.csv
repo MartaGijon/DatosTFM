@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'radiotracer_name': '99mTc-(V)DMSA', 'subgroup_type': 'Head-to-head patients', 'sensitivity': 92.0, 'specificity': 91.0, 'accuracy': 91.0, 'positive_predictive_value': 79.0, 'negative_predictive_value': 97.0, 'patient_count': 45, 'total_patients': 102}]",[],extracted_empty_array,

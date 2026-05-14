@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.791667,true,,,,"The evaluation treats each field as an exact match requirement: string fields use exact string comparison, numeric fields use exact numeric comparison, and boolean fields use exact boolean comparison...."

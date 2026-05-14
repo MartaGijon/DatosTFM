@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333350,false,,,,"The comparison was performed field‑by‑field using the most appropriate metrics. The *histology_type* field was evaluated with **string_exact**, so text mismatches resulted in a 0.0 score. The *case_co..."

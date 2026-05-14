@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.411429,false,,,,"The gold array contains 25 items (postion 0-24). The predicted array also has 25 entries, each with the same postion values except there is no entry for postion 0, so that gold element is unmatched. E..."

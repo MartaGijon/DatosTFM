@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"The gold and predicted arrays each contain 14 transaction objects.  Both sets have the same multiset of dates (06 of ""07/20/20"", 2 of ""07/21/20"", 2 of ""07/22/20"", 2 of ""07/23/20"", 2 of ""07/24/20""), an..."

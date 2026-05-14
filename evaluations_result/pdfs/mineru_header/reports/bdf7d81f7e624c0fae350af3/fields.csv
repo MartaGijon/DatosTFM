@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and prediction arrays both contain three items, so a one‑to‑one mapping is possible. I evaluated each field according to the metric definitions. Numeric fields (date, unit_price_gross, positi..."

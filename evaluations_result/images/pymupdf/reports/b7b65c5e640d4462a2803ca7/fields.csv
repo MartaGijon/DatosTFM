@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The matching is performed by treating the arrays as unordered collections and computing a partial match score for each pair of gold and predicted items. For each gold item, we identified the predicted..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"Each gold item can be matched to a unique predicted item based on identical values for all fields except the `position` field. Since `position` values differ (22 vs 1, 23 vs 2, 24 vs 3), that single f..."

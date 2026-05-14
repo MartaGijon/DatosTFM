@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Four gold items were matched to four predicted items that share identical dates, quantities, prices, unit prices and positions, providing perfect alignment on all numeric fields. The description field..."

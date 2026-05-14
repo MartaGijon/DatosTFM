@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The evaluator treats arrays as unordered collections. For each gold item we find a predicted item with the highest combined score. 
+
+1. **Numeric fields** (`position`, `quantity`, `unit_price_gross`, ..."

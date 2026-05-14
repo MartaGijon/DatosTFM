@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items match exactly one predicted item each by position and the full set of attributes. For each field the value is identical:
+- `position`: integer equality.
+- `date_start` and `date_e..."

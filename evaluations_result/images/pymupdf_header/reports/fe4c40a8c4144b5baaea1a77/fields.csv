@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.150000,false,,,,"There is only one predicted item so it can match at most one gold item. The predicted item has the same date, price, and position as the gold entry dated ""08/20/18"" (first gold item). The description ..."

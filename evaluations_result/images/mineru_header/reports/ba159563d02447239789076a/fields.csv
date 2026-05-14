@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The evaluation treats each field with an appropriate metric. Numeric fields use integer_exact or number_exact, code uses string_exact, and position uses integer_exact. Descriptions are compared with s..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.928571,true,,,,"All fields (date, description, amount_net) match perfectly for 13 out of the 14 gold items. The predicted array contains 13 items, all of which are identical to distinct gold items. The one gold item ..."

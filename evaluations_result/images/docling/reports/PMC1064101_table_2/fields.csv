@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.200000,false,,,,"Both gold and predicted arrays have two objects, so each gold item can be matched to one predicted item to maximize the total score. For each pair, the ""feature_name"" field matches exactly and is scor..."

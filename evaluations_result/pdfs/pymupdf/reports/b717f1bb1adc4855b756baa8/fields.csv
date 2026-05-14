@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The evaluation was performed by comparing each field of the gold and predicted items using the appropriate metric: integer_exact for integer fields, number_exact for numeric fields and string_semantic..."

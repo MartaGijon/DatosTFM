@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833350,true,,,,"The evaluation treats each field as a primitive that must match exactly. Position is compared with integer_exact, the numeric price fields with number_exact, and the remaining strings with a strict ex..."

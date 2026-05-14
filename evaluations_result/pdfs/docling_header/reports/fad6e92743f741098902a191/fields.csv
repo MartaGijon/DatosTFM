@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items are identical to the predicted items, just in a different order. For each gold item, the best matching predicted item matches on every field: position (integer_exact), date_start ..."

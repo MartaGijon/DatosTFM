@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold array contains two distinct items. Comparing each gold item with every predicted item while treating arrays as unordered, the following partial match scores are computed based on individual f..."

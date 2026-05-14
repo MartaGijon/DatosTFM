@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All five gold items have an exact counterpart in the predicted array. For each matched pair, every field matches on an exact, numeric or string comparison. The field count per item is seven, and each ..."

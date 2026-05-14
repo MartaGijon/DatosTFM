@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold items have identical field values to six predicted items, although the order differs. Each field in the matched pairs satisfies the appropriate evaluation metric: numeric fields match exa..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays each contain four items. All items are identical up to minor formatting differences in the ‘description’ field (slashes vs hyphens, date separators). Using the provided m..."

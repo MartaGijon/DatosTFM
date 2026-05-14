@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"The gold array contains five entries, all identical except one has a quantity of 5 instead of 4. The predicted array also contains five entries, four with quantity 4 and one with quantity 5. Because a..."

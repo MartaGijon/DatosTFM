@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.142857,false,,,,"There is one gold item and one predicted item. For each field the relevant metric is used:
+- birth_order_category: string_exact – values differ (""2nd-4th born"" vs ""2nd through 4th""), score 0.
+- race: ..."

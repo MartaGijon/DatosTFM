@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.142857,false,,,,"The evaluation proceeds field‑by‑field using the metric definitions for the data types. 
+
+1. **birth_order_category** – both are strings, but the gold uses a hyphen (""-"") while the prediction uses an ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three predicted items correspond exactly to the three gold items when considering each field independently. The field values for position, date, description, quantity, and unit_price_gross are ide..."

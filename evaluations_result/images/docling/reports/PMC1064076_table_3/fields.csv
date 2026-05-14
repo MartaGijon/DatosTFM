@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.208333,false,,,,"There are three gold entries and one predicted entry. The predicted item matches the first gold entry best. Matching fields: ""stratified_variable"", ""intake_level"", ""menopausal_status"", ""odds_ratio"", a..."

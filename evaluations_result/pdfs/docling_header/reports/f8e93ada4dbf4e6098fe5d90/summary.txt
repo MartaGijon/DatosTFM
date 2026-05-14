@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: f8e93ada4dbf4e6098fe5d90
+Timestamp: 2026-05-13T00:17:11.968614
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.542
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 9
+  Required Keys: 7
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 2, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 120
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.542
+  Median Score: 0.542
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.542
+      Reason: The evaluation required pairing each gold item to a unique predicted item that maximizes the sum of ...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.542
+
+================================================================================

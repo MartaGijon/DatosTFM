@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"We treated each field as a primitive.  For integers and numbers the evaluation is exact equality (integer_exact or number_exact), and for the date strings we used a binary string_semantic rule (exact ..."

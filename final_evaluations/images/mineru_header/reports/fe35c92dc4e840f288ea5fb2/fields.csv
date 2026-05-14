@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.142857,false,,,,"The evaluation compares each field of the gold items to the predicted items using the explicit comparison rules for integers, strings, and numbers. Only the ""code"" field matches exactly across every g..."

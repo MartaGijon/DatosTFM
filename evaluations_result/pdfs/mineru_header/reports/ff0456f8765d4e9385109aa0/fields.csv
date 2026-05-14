@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.161290,false,,,,"Each predicted item corresponds to a unique gold item with identical position, quantity, date, unit_price_gross, and price_gross.  The only variation is in the description formatting, which, according..."

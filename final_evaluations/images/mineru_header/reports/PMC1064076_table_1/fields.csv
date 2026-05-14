@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain exactly one item. Each field in the gold item matches the corresponding field in the predicted item exactly: strings match with string_exact, integers with i..."

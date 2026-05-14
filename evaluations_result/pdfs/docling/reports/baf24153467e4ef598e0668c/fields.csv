@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.533333,false,,,,"The gold array contains nine items; the predicted array also contains nine items, so the maximum possible matched score is 9. For each gold item we calculated a partial match score based on field‑by‑f..."

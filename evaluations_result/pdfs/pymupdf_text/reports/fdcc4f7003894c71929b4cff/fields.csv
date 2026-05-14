@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"We treat the arrays as unordered collections. Each item has three fields: date, description, and price_gross. For deterministic comparison, string fields are matched by exact equality and numeric fiel..."

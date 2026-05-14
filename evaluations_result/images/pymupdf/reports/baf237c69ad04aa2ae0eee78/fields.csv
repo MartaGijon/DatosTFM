@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"The predicted array contains a single item that closely matches the first gold item but mismatches on two numeric fields (unit_price_gross and postion). For each field, the specific metric applies: id..."

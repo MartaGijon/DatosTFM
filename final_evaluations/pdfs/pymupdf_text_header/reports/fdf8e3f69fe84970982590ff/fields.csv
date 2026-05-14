@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.444444,false,,,,"The evaluation treats each field independently using the most appropriate metric: string_exact for textual fields and number_exact for the numeric field. For every pair of gold and predicted items, a ..."

@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.166667,false,,,,"The evaluation compares each gold item to the predicted items using the provided metric definitions. For the single gold record and the single predicted record, the fields are evaluated as follows:
+
+-..."

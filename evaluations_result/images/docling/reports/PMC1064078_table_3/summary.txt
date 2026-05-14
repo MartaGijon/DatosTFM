@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: PMC1064078_table_3
+Timestamp: 2026-05-13T14:11:27.910956
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.075
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 13
+  Required Keys: 11
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 3, object: 2, string: 5
+
+COVERAGE
+----------------------------------------
+  Present in Both: 20
+  Missing in Extracted: 60
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.075
+  Median Score: 0.075
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.075
+      Reason: The evaluation follows the full rule set: each field is compared with its corresponding type-specifi...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.075
+
+================================================================================

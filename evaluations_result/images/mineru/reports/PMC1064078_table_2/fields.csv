@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items match exactly with the two predicted items. For each field – dataset_type, tertile_group, cases_count, controls_count, minimally_adjusted_or, minimally_adjusted_ci_lower, minimally_adj..."

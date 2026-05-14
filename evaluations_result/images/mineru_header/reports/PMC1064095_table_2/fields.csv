@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.300000,false,,,,"The evaluation treats the arrays as unordered collections and seeks a one‑to‑one pairing that maximizes the aggregate partial match score. I compared each gold item to both predicted items, calculatin..."

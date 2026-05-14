@@ -1,0 +1,147 @@
+{
+  "output_name": "b99d24932fc54f02af918136",
+  "timestamp": "2026-05-13T14:20:44.868810",
+  "schema_hash": "618cab8d",
+  "gold_hash": "21b897c3",
+  "extracted_hash": "651bd46e",
+  "schema_stats": {
+    "total_nodes": 7,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 3,
+      "number": 1
+    },
+    "required_keys_count": 5,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 3,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 17,
+    "counts_by_type": {
+      "array": 1,
+      "string": 12,
+      "number": 4
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 4,
+      "min_length": 4,
+      "median_length": 4,
+      "max_length": 4
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 17,
+    "counts_by_type": {
+      "array": 1,
+      "string": 12,
+      "number": 4
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 4,
+      "min_length": 4,
+      "median_length": 4,
+      "max_length": 4
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 16,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.625,
+      "median_score": 0.625,
+      "score_distribution": {
+        "0.6-0.8": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "extractions",
+          "metric_id": "array_llm",
+          "score": 0.625,
+          "reasoning": "Each gold object has four fields that are compared using exact string or exact numeric matching. The best alignment pairs the two 11/04 gold items with the two predicted items that have the same date ..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "extractions": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.extractions",
+      "normalized_path": "extractions",
+      "metric_id": "array_llm",
+      "score": 0.625,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "Each gold object has four fields that are compared using exact string or exact numeric matching. The best alignment pairs the two 11/04 gold items with the two predicted items that have the same date ..."
+    }
+  ],
+  "overall_score": 0.625,
+  "overall_pass_rate": 0.0
+}

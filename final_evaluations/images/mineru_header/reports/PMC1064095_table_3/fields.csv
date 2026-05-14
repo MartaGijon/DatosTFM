@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.333333,false,,,,"There is only one gold entry and one predicted entry, thus a single pair is evaluated. The pair contains six fields. The numeric field “odds_ratio” matches exactly under the “number_exact” rule, givin..."

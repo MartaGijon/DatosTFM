@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "kinetic_parameter": "Vmax",
+            "nd_value": 19.6,
+            "nd_error": 0.75,
+            "d_value": 21.6,
+            "d_error": 0.9,
+            "d_dn_rhoa_value": 2.03,
+            "d_dn_rhoa_error": 223.0,
+            "d_dn_rac1_value": 219.0,
+            "d_dn_rac1_error": 216.0
+        }
+    ]
+}

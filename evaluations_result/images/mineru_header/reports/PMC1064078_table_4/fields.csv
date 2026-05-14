@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold and predicted arrays contain two identical objects. For each structural field, values match exactly, satisfying the integer_exact, number_exact, and string_exact rules. Therefore each gold i..."

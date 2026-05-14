@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The predicted array contains one object that is aligned with the single gold object. Each field is evaluated using the specified metric definitions. For the string field 'variant_allele', the gold val..."

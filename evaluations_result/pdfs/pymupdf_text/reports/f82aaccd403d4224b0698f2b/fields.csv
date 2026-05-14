@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.981818,true,,,,"The prediction contains all 22 gold items with the same numeric fields. The only discrepancies occur in the descriptions of positions 17 and 18, where the predicted strings use a hyphen instead of a s..."

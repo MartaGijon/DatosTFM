@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.200000,false,,,,"The gold array contains 6 items and the predicted output contains 2. The evaluation uses field‑by‑field comparison. For the string fields we apply a semantic similarity model; the titles ""HAWAII NEWS ..."

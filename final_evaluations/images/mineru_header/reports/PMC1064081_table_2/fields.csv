@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.081633,false,,,,"To compute the partial match score for each possible gold‑predicted pair, each field is evaluated with the most appropriate rule: string fields use `string_exact` (exact, case‑sensitive equality) and ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The gold array contains one item with numeric fields unit_price_gross, unit_price_net, and quantity. For each field the ""number_exact"" rule is applied, requiring exact numeric equality. The predicted ..."

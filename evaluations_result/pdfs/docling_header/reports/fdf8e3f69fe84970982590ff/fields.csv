@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.222233,false,,,,"All predicted items match only the price_gross field of two gold items. The codes differ due to trailing numeric suffixes and exact string comparison requires full equality, so those fields fail. Date..."

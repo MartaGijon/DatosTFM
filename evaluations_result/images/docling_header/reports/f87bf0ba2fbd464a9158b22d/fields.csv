@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"The predicted array contains a single item that aligns best with the first gold item. Field-by-field comparison using the provided metric definitions yields:
+- **position** (integer_exact): 1 vs 1 – p..."

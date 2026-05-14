@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.285714,false,,,,"The evaluation treats arrays as unordered collections, so the single gold record is paired with the single predicted record. Each field is evaluated with the appropriate metric: string_exact for the c..."

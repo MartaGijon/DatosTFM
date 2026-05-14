@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains 6 items, each with three primitive fields: date, unit_price_gross, and description. The expected value for each field is exact since all values are numeric or string literals. ..."

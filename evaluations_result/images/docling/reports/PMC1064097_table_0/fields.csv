@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"Each gold item has four string fields that must match exactly. The predicted array contains corresponding fields, but all values are ""Not specified in the provided table"" except for `exclusion_pregnan..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.928571,true,,,,"Each gold item was paired with the predicted item that maximized the fraction of passing fields. For each field, exact matching was required for numbers and integers, and exact string matching was use..."

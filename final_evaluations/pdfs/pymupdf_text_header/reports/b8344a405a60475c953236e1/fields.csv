@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.380952,false,,,,"Each predicted record was aligned with the gold record that had the identical description, which is the highest‑scoring match under the given metrics. For each aligned pair, the quantity field matched..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items find an exact counterpart in the predicted array. Each field aligns perfectly: integer fields such as position and quantity pass the integer_exact rule, numeric fields like unit_price_g..."

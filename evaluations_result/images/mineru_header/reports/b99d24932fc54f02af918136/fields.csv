@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.687500,false,,,,"The evaluation compares each field of the gold items with the predicted items using the ""string_exact"" and ""number_exact"" metrics. A field passes only if the string or number is exactly identical in t..."

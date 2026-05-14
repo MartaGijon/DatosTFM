@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All predicted items match exactly with the gold items in every field. The description strings, while formatted slightly differently (e.g., using a dash instead of a slash), are semantically equivalent..."

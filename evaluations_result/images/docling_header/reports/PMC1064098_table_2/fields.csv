@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.277778,false,,,,"The evaluation uses string_exact for the ""cell_type"" field and number_exact for the numeric fields. Each gold item is compared against all predicted items, and a partial score is computed as the fract..."

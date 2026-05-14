@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "feature_name": "Age",
+            "brca1_odds_ratio": 1.0,
+            "brca1_p_value": 1.0,
+            "brca2_odds_ratio": 1.0,
+            "brca2_p_value": 1.0
+        },
+        {
+            "feature_name": "Grade",
+            "brca1_odds_ratio": 1.0,
+            "brca1_p_value": 1.0,
+            "brca2_odds_ratio": 1.0,
+            "brca2_p_value": 1.0
+        }
+    ]
+}

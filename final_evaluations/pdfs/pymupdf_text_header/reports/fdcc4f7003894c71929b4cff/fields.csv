@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item contains three fields: date, description, and price_gross. The predicted array contains all six required dates exactly once, with matching description ('Spot') and price_gross (34.2) fo..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"All three predicted items exhibit no substantial match to any of the ten gold items. The `description` fields differ in title, and the numeric fields (`quantity`, `price_gross`, `unit_price_gross`) do..."

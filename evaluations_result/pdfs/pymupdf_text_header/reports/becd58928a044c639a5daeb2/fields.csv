@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All 14 gold items match unique predicted items because each item's fields – date, description, and amount_net – are identical to some predicted item's fields. Date and description are treated as seman..."

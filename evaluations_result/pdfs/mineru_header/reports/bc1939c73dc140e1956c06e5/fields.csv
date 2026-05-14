@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.464286,false,,,,"The evaluation requires matching each gold item with a predicted item to maximize the sum of per‑field partial match scores.  Each field is assessed individually: numeric fields (integer_exact, number..."

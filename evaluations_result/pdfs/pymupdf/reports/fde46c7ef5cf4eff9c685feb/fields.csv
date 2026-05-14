@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items are present in the predicted array, although the order differs. Each predicted item matches a gold item on every field. For numeric fields we used the ""number_exact"" metric yielding 1.0..."

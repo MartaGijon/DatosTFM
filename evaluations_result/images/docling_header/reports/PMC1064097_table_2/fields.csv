@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.555556,false,,,,"The gold and predicted arrays both contain a single item. Comparing each field using the specified metric rules:
+- radiotracer_name: exact string match → 1.0
+- subgroup_type: strings differ by hyphen ..."

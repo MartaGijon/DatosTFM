@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.416667,false,,,,"The predicted array has a single record that is compared against the two gold records. Each field is evaluated using an appropriate metric: strings use string_exact, integers use integer_exact, and nu..."

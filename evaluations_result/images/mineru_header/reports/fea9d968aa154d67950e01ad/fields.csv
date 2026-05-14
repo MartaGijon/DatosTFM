@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"For the single gold item the best (and only) match is the sole predicted item. All primitive fields are evaluated with the appropriate exact-match metrics: integers (position, quantity), strings (date..."

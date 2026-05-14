@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.021226,false,,,,"The predicted array contains only two items, so at most two gold records can be paired. For each candidate pairing the partial match score was computed as the fraction of fields that satisfy the field..."

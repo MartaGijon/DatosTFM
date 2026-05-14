@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items have a direct counterpart in the predicted array with identical values for the numeric and integer fields: position, unit_price_gross, and quantity. The description fields, although for..."

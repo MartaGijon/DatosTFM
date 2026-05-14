@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The gold array contains 47 records, all representing a single work piece (position 1) but with varying quantities, dates and prices. The predicted array has 34 entries, each with quantity 1 and many i..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"For each gold item I identified a predicted item with identical numeric fields (quantity, unit_price_gross, price_gross) and the same date range (start_date and end_date). The description field in the..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.548571,false,,,,"The gold array contains 25 items, each with 7 fields: date, description, code, amount_net, unit_price_gross, price_gross, postion. The predicted array also contains 25 items. For any pairing, the fiel..."

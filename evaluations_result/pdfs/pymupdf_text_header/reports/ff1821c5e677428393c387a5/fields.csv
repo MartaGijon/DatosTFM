@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items. Each gold item is evaluated against all predicted items to find the best match that maximizes the partial match score. For each field, the appropriate metric is appl..."

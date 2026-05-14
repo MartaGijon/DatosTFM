@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All eight gold items are identical to the eight predicted items.  Each field—date, description, and price_gross—matches exactly.  Using the number_exact metric for ‘price_gross’ and exact string equal..."

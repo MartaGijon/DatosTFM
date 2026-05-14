@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"All four predicted entries exactly match the gold entries for dates 11/1/2018, 11/2/2018, 11/5/2018, and 11/6/2018. For each matched pair, every field (date, quantity, unit_price_gross, price_gross) s..."

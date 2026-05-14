@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.642857,false,,,,"The evaluation was performed following the vendor‑specified rules. Each gold item was aligned with a predicted item that maximized the partial match score, defined as the fraction of fields – descript..."

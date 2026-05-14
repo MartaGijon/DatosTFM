@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold and predicted arrays each contain two objects. For every field the appropriate metric is applied: integers use `integer_exact`, numeric prices use `number_exact`, and strings use `string_sema..."

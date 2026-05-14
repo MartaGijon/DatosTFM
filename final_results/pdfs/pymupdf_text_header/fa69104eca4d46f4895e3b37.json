@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 2,
+            "description": "M-F Midday 10a-3p"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 2,
+            "description": "M-F Midday 10a-3p"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 1,
+            "description": "M-F AM Drive 6a-10a"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 1,
+            "description": "M-F AM Drive 6a-10a"
+        }
+    ]
+}

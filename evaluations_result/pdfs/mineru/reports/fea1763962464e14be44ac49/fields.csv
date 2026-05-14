@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two items each with four fields: date, quantity, unit_price_gross, and price_gross. The predicted array has four items. Using the defined metric rules, all fields are evaluated..."

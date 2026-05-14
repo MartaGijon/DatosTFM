@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"There is one gold entry and one predicted entry. By aligning them, all six fields (`genotype`, `subgroup`, `cases_count`, `cases_percentage`, `odds_ratio`, `confidence_interval`) are identical. Each f..."

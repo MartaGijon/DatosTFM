@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"There is only one predicted item. For each gold item, all three fields (carcinoma_type, location, hpv_type_16_count) are evaluated using the metric definitions: string_exact for carcinoma_type and loc..."

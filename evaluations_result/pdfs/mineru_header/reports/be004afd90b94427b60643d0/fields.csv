@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.600000,false,,,,"The evaluation treats the array as unordered, but pairing is computed via a best‑matching algorithm that maximizes the sum of partial match scores. Each gold entry has five fields. For a gold‑predicte..."

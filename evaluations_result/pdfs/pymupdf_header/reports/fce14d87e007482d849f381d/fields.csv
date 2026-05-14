@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item matches exactly with one predicted item. Both items have identical values for all fields. When treating the arrays as unordered collections, the best alignment pairs each gold entry wit..."

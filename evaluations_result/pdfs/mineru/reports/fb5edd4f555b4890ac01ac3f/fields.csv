@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"Both predicted items match the gold items exactly in all fields except the description. The gold description ""M/F Midday"" differs from the predicted ""M-F Midday"" only in a decorative character (slash ..."

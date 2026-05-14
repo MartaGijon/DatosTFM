@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The evaluation treats arrays as unordered collections. Each gold item contains three fields – carcinoma_type, location, and hpv_type_16_count – which are compared using string_exact for the first two ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All eight gold items exactly match a predicted item by date, quantity, unit_price_gross, and price_gross. Each field passes its designated exact match rule, yielding a full score of 1.0 for each pair...."

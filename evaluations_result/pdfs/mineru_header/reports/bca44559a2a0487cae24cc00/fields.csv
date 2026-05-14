@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted and gold arrays contain six items each. While the descriptions in predictions use hyphenation instead of slashes and commas, they convey the exact same product codes, sizes, and price ra..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The predicted array contains a single item that exactly matches the first gold item in all six fields. Each field comparison uses the appropriate metric: `string_exact` for the two string fields, `int..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The evaluation treats each field as a primitive, so an exact equality is required for a field to pass. All six gold items find an identical predicted counterpart, yielding a perfect partial score of 1..."

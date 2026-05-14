@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item contains the same six fields as its matching predicted counterpart:
+
+• Position 1: All values (date_start, date_end, unit_price_gross, quantity, price_gross) match exactly.
+• Position 2..."

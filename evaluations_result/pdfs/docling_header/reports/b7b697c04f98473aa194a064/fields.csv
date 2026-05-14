@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The evaluation compares each gold item to the most similar predicted item using per‑field exact rules. Each item has four fields: position (integer_exact), quantity (string_exact), code (string_exact)..."

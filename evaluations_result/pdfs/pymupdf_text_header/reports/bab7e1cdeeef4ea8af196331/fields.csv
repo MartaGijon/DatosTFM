@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.437500,false,,,,"For each of the four gold items I evaluated all four schema fields: description, unit_price_gross, price_gross and quantity. The number_exact metric requires exact numeric match, integer_exact require..."

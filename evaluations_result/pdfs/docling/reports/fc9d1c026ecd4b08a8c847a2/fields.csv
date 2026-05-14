@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three items in the gold array have identical numeric values for unit_price_gross, quantity, and price_gross. The predicted array contains the same three items, just in a different order. Each gold..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four items in the predicted array exactly match the four items in the gold array when treated as unordered collections. Each item has identical values for all four fields: the date string, the int..."

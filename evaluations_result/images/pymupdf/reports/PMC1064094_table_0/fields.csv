@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.950000,true,,,,"We evaluated each field of every gold item against all predicted items using the specified metrics. For the string fields (“carcinoma_type” and “location”) we used string_exact, and for the integer fi..."

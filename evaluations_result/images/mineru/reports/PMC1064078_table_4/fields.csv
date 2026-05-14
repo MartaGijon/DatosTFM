@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Los dos objetos de la matriz de oro coinciden exactamente con los dos objetos en la matriz predicha, aunque en orden diferente. Cada campo de tipo cadena (maternal_age_group) se evalúa con string_exac..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The gold array has one item with fields unit_price_gross, unit_price_net, and quantity. The predicted array also has one item with the same fields, but the quantity differs (12 instead of 40). Using t..."

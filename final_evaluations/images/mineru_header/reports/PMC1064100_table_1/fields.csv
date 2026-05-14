@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.027211,false,,,,"The evaluation proceeds by treating each gold item as an unordered object with seven fields: gene_variant, mother_carrier_status, father_carrier_status, number_affected_daughters, number_unaffected_da..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold and predicted arrays each contain a single item, so the optimal pairing is obvious. Field‑level evaluation uses the most conservative metric inferred from type: integers employ integer_exact,..."

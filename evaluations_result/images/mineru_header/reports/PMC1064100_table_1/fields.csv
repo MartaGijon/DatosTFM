@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.030612,false,,,,"I evaluated each gold list entry against both predicted items using the defined metrics: integer_exact for numeric fields and string_exact for text fields. Because the predicted ""gene_variant"" value ""..."

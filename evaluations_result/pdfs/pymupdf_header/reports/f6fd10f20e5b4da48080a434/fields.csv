@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.200000,false,,,,"For each gold item we evaluate the five fields: description (string_semantic), quantity (integer_exact), unit_price_gross (number_exact), price_gross (number_exact), and position (integer_exact).  The..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All items in the predicted array are identical to those in the gold array in terms of description, date and unit_price_gross. Using the primitive matching rule, each field passes if the values are exa..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The evaluation proceeds by pairing the single gold item with the single predicted item. For each of the three fields we apply the appropriate metric: string_exact for the log_odds_range, integer_exact..."

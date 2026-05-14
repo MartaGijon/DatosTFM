@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The evaluation considers each field of the objects in the array. 
+
+**Field comparison rules**
+- `date` is compared with `string_semantic`; because the exact string value matches, the pass rule is sati..."

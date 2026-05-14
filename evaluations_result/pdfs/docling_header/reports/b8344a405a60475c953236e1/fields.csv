@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.642857,false,,,,"Nine gold items found exact matches in the predicted array when considering all three fields – description, quantity, and unit_price_gross – with a score of 1.0 for each. These matches are:
+1. ""LIVE 5..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains five distinct line items, each with four fields. The predicted array also contains five identical items plus one additional item dated ""10/28/2018"". Because the evaluation trea..."

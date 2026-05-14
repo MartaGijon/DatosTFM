@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The evaluation treats each field as a string and applies the string_exact metric, which demands exact, case‑sensitive equality. Comparing the single gold item to the single predicted item:
+
+1. inclusi..."

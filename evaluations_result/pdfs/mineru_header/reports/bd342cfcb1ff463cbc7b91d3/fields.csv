@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"I evaluated each gold item against every predicted item on a field‑by‑field basis using exact matching for strings and numeric values (amount_net, quantity, price_gross). For each pair I computed the ..."

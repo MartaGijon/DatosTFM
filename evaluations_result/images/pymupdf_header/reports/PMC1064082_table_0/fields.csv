@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"For each gold record we consider each predicted record and compute a partial match score by checking every field. The ""expression_group"" field uses string_exact, the count fields use integer_exact, an..."

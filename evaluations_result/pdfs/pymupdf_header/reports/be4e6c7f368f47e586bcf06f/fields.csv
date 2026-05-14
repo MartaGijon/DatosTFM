@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.571429,false,,,,"I evaluated each gold entry against every predicted entry. For each field I applied the appropriate metric: integers use `integer_exact`, floating numbers use `number_exact`, and strings use `string_e..."

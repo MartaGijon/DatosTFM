@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.680000,false,,,,"The gold array contains 25 objects (positions 0–24) and the predicted array also contains 25 objects.  Each field is evaluated with the appropriate metric: dates, descriptions, and the numeric amount ..."

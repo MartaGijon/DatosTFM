@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"Each item in the gold array consists of three fields: ""code"", ""date"", and ""price_gross"". The predicted array contains three items, each with the same three fields. The evaluation rules are inferred co..."

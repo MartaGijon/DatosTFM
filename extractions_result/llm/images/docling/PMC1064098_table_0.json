@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "culture_group": "NAF-3",
+            "sample_size": 3,
+            "mean_index": 13.2,
+            "standard_error": 1.1
+        },
+        {
+            "culture_group": "NAF-1",
+            "sample_size": 3,
+            "mean_index": 12.5,
+            "standard_error": 1.2
+        },
+        {
+            "culture_group": "CAF-3",
+            "sample_size": 3,
+            "mean_index": 29.9,
+            "standard_error": 2.5
+        },
+        {
+            "culture_group": "NAF-2",
+            "sample_size": 3,
+            "mean_index": 14.8,
+            "standard_error": 1.5
+        }
+    ]
+}

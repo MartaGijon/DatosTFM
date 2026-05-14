@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.666700,false,,,,"The evaluation follows the provided metric definitions: numeric fields use the `number_exact` rule (exact equality after coercion to float), while all other fields are compared with `string_exact` (ex..."

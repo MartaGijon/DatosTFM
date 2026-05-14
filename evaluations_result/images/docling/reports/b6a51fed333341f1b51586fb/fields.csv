@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"We evaluate each gold object against every predicted object treating the array as an unordered collection. Each field is scored using the appropriate metric: integers use integer_exact, the numeric pr..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All five predicted items are exact replicas of the gold items, with every field matching exactly. A partial match score for each gold–predicted pair is 1.0 (7 out of 7 fields pass). Since arrays are t..."

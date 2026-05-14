@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Se evaluó cada elemento del array de referencia comparándolo con los del array predicho. Para las cuatro propiedades: description (string), quantity (integer), unit_price_gross (number) y price_gross ..."

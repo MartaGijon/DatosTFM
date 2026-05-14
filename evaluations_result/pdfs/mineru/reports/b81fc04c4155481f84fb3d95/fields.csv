@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.832500,true,,,,"For each gold item we compared all six fields with every predicted item. The integer and numeric fields matched exactly for the positions 3, 4, 5, and 6 in the gold array, as the corresponding predict..."

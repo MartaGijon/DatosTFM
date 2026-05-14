@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.138889,false,,,,"There are six gold items and only one predicted item. The evaluation treats arrays as unordered collections, so we align the single predicted entry with the gold entry that gives the highest partial m..."

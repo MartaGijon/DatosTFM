@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each item in the gold collection was compared against the expected array elements. The fields ""description"", ""date"", and ""unit_price_gross"" were individually evaluated as exact matches, yielding a per..."

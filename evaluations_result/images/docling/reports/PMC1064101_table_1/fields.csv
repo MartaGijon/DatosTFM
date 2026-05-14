@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.166667,false,,,,"There are two gold items and two predicted items. Using the provided metric definitions, each field is evaluated with strict equality: strings must match exactly (string_exact), integer case_count val..."

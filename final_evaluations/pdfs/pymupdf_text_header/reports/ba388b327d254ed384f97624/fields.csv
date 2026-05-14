@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.942857,true,,,,"All five gold items have a unique position value that matches a predicted item, so the best alignment is straightforward: gold1↔pred1, gold2↔pred2, gold3↔pred5, gold4↔pred4, gold5↔pred3. Each field is..."

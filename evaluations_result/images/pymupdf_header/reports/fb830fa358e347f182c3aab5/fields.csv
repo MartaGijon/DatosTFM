@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.916667,true,,,,"The gold array contains 24 items and so does the predicted array. Each item has three fields: date, description, and unit_price_gross. The unit_price_gross values are identical (47.06) in every record..."

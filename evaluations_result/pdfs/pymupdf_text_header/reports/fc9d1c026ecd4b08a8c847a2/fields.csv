@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains three objects, each specifying a unit price, quantity, and total price. The predicted array also contains three objects with identical field names and values. Treating the arra..."

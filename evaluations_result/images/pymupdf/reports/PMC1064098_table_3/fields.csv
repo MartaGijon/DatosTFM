@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"For each gold item we examined all predicted items and computed a partial match score based on exact matching of the six fields (cell_type, sample_id, monoculture_level, monoculture_mean, coculture_le..."

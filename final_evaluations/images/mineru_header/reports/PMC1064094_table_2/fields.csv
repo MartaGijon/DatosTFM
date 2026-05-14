@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"Each gold item has three fields: carcinoma_type, location, and hpv_type_16_count. The evaluation uses the ""string_exact"" rule for text fields and the ""integer_exact"" rule for the count field. A match ..."

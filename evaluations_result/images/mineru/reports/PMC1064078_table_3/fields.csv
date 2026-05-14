@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.462500,false,,,,"The evaluation considered each field using the metric definitions: case-sensitive string equality for string fields, exact numeric equality for number fields, and exact integer equality for integer fi..."

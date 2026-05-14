@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both arrays contain eight objects, each with the same three fields: description, date, and unit_price_gross. The predicted array includes two copies of each date (8/21/2018, 8/22/2018, 8/23/2018, 8/24..."

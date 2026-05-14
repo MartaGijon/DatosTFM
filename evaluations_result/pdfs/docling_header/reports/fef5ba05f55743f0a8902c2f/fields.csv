@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both arrays contain 57 items that are duplicates of each other, arranged in the same order. For each gold item there exists a predicted item with identical values for all four fields: date, position, ..."

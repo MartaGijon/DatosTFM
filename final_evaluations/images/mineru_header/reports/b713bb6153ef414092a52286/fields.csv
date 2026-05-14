@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.533333,false,,,,"The task evaluates each gold object against the predicted array, maximizing the sum of per-field match scores. Seven fields per object are examined using the following criteria: integers (position, qu..."

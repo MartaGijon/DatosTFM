@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The evaluation treats each array element as an object with four fields: position, quantity, code, and price_gross. Each field is compared using the corresponding metric: integer_exact for position, st..."

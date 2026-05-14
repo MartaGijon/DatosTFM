@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain a single identical object. All fields match exactly according to their respective evaluation rules: string_exact for textual fields, number_exact for floatin..."

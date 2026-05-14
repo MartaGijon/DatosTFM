@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The predicted array contains one object. The variant_allele field does not match exactly ('C' vs 'CYP17 C'), so it scores 0.0. The remaining three numeric fields match exactly (42.46, 1.01, 0.16), eac..."

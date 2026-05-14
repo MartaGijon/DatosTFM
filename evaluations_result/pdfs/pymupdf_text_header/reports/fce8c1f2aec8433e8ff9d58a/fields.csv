@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"The gold array contains two items. For each gold item we evaluate each candidate predicted item field by field, treating numbers and dates as exact matches and strings as primitive equality. Each gold..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items have identical field values to the corresponding predicted items (positions 1‑4 with matching dates and unit prices). For each field, the `integer_exact` and `number_exact` metrics..."

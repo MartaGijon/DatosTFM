@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.044444,false,,,,"The single predicted item was compared against each gold item. Only the gold item with code ""115025/S"" shares the same date (“07/16/99”) and description (“CHR INDIANAPOLIS”) as the predicted item, giv..."

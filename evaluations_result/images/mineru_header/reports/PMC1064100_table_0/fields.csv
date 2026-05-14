@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.888889,true,,,,"Only one gold item and one predicted item exist. I compared each field using the appropriate metric definitions. Genotype and all integer fields except ""sons_affected"" matched exactly, yielding 8 pass..."

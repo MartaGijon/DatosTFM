@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"The gold array contains 14 identical items, each with fields: date, description, and amount_net. The predicted array also contains exactly the same 14 items, just in a different order. For each gold i..."

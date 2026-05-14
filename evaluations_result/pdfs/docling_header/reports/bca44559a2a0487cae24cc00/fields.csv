@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold items have an identical counterpart in the predicted array. The numeric fields (quantity, unit_price_gross, price_gross) match exactly as required by the integer_exact and number_exact me..."

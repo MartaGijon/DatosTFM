@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.875000,true,,,,"We aligned the two predicted objects to the two gold objects in a one‑to‑one manner. For the ""Low expression"" group the string and integer fields matched exactly, giving a score of 3/4 = 0.75 because ..."

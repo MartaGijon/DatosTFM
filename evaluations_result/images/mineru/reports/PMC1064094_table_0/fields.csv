@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Because the arrays are unordered, each gold entry can be paired with its identical counterpart in the predicted array. For every pair, all four fields – carcinoma_type, location, number_tested, and hp..."

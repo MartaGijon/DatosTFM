@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The gold and predicted arrays contain the same set of entries but are permuted. Each item has five fields: position (integer), date (string), description (string), quantity (integer), and unit_price_g..."

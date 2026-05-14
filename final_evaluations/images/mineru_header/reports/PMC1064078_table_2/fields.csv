@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items are matched perfectly with the corresponding predicted items. All 10 fields in each object are identical, yielding a partial match score of 1.0 per pair. The optimal alignment pairs th..."

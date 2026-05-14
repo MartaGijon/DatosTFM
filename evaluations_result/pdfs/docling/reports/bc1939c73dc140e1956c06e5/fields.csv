@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.428575,false,,,,"The evaluation treats every field as a primitive that must match exactly, except for the description field which is also compared by exact string equality. For each gold item we examine all predicted ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The evaluation treats each array as an unordered set, but the optimal alignment pairs items with identical positions because the other fields are otherwise identical. For every gold item a predicted i..."

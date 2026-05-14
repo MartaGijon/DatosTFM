@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: f8e93ada4dbf4e6098fe5d90
+Timestamp: 2026-05-14T09:09:01.176468
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.477
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 9
+  Required Keys: 7
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 2, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 84
+  Missing in Extracted: 36
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.477
+  Median Score: 0.477
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.477
+      Reason: The evaluation treats the gold and predicted arrays as unordered collections. Each field is checked ...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.477
+
+================================================================================

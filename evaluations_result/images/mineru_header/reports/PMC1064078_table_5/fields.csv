@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.218750,false,,,,"The single predicted item aligns best with the first gold entry (African-American Case) based on matching values for maternal_age_range, race, minimally_adjusted_or, minimally_adjusted_ci, fully_adjus..."

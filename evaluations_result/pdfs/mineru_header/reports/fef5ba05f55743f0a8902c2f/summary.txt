@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: fef5ba05f55743f0a8902c2f
+Timestamp: 2026-05-13T14:29:11.582356
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 0.996
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 7
+  Required Keys: 5
+  Optional Keys: 0
+  By Type: array: 1, integer: 1, number: 1, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 228
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.996
+  Median Score: 0.996
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.996
+      Reason: The gold array contains 57 identical items split across 19 dates with 3 items per date (except 11/15...
+
+================================================================================

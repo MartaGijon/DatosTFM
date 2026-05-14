@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item contains three fields: date, description, and price_gross. The evaluation for each field follows the schema's implicit rules: numeric comparison for price_gross uses exact match, and st..."

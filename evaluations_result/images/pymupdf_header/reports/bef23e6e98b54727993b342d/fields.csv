@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"With only one gold item, we evaluate each predicted item against it and pick the pairing with maximum partial match. The gold item has three fields: unit_price_gross, unit_price_net, and quantity. Acc..."

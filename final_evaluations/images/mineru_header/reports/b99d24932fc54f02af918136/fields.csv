@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.687500,false,,,,"There are 4 gold items and 4 predicted items. Each field is evaluated with string_exact for strings and number_exact for the numeric field. For a gold–predicted pair, each of the four fields that matc..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"All five fields (culture_group, sample_size, mean_index, standard_error) are evaluated with exact matching rules. The predicted array contains the correct culture_group identifiers but incorrect numer..."

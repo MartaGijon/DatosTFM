@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.928571,true,,,,"The gold array contains 14 transaction objects, mostly identical except for the date field. The predicted array has 13 objects. All objects share the same description and amount value (35.0). For the ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"There are six items in both the gold and predicted arrays.  Each gold item can be perfectly matched to a unique predicted item when we ignore the leading ""60 Radio"" and the difference between slashes ..."

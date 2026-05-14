@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All 14 gold entries contain exactly the same values for the three fields (date, description, amount_net) as predicted entries. Since the arrays are treated as unordered collections, each gold entry ca..."

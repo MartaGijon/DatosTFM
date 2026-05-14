@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.380952,false,,,,"All fields in the schema are validated with the most appropriate metric. The `quantity` field uses `integer_exact`, so it matches only when the integer values are equal. The `unit_price_gross` field u..."

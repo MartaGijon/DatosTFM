@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items exactly match the corresponding predicted items. Every field ('date', 'quantity', 'unit_price_gross', 'price_gross') passes its evaluation rule, yielding a per-item partial match score..."

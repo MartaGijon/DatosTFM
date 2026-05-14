@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All five gold items are perfectly represented in the predicted array. After treating the arrays as unordered collections, each gold entry can be uniquely paired with an identical predicted entry. For ..."

@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "description": "AMAG",
+            "unit_price_gross": 100.0,
+            "price_gross": 100.0,
+            "quantity": 1
+        },
+        {
+            "description": "AMAG",
+            "unit_price_gross": 950.0,
+            "price_gross": 950.0,
+            "quantity": 1
+        },
+        {
+            "description": "AMAG",
+            "unit_price_gross": 250.0,
+            "price_gross": 250.0,
+            "quantity": 1
+        },
+        {
+            "description": "AMAG",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0,
+            "quantity": 1
+        }
+    ]
+}

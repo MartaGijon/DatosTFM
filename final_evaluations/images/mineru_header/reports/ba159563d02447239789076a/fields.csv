@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.787750,true,,,,"The evaluation treats the arrays as unordered collections.  Each gold item is matched to the single predicted item that maximizes the sum of per‑field match scores.  The metrics used are:
+- `string_ex..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold entry has an identical counterpart in the predicted array. All six fields (position, date_start, date_end, unit_price_gross, quantity, price_gross) match exactly in value and type. The per‑f..."

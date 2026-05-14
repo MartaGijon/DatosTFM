@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold objects have an exact counterpart in the predicted array. For each field the evaluations are:
+- position: integer_exact, predicted matches gold exactly (score 1.0).
+- start_date / end_da..."

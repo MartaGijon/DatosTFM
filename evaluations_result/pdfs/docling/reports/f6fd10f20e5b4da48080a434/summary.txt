@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: f6fd10f20e5b4da48080a434
+Timestamp: 2026-05-13T14:09:36.259065
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.200
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 8
+  Required Keys: 6
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 2, object: 2, string: 1
+
+COVERAGE
+----------------------------------------
+  Present in Both: 10
+  Missing in Extracted: 20
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.200
+  Median Score: 0.200
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.200
+      Reason: The gold array has six items: one with description "HAWAII NEWS NOW @630P KFVE" at position 2 and fi...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.200
+
+================================================================================

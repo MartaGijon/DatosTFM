@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.966600,true,,,,"The evaluation treats each field according to its type. Integer fields (position, quantity) are checked with exact integer matching; numeric fields (unit_price_gross) use exact numeric equality; strin..."

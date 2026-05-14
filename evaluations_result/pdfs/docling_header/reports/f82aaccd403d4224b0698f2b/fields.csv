@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 25 items in the gold array have an equivalent item in the predicted array with identical field values, except for minor formatting differences in the description of item 18. The description of ite..."

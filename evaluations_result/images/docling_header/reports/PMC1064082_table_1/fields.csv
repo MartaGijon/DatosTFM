@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"The predicted array contains a single item. For each gold item, we computed a partial match score by comparing each field using the metric rules: strings use string_exact, integers use integer_exact, ..."

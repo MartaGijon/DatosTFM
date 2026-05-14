@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.583333,false,,,,"The prediction contains two items that map to the two gold items. For each field we used the supplied metric definitions: exact string match for all string fields, exact numeric match for the odds_rat..."

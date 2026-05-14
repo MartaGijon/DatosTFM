@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains two transactions that are identical to the two transactions in the predicted array, only the order is different. Since arrays are treated as unordered collections, we can pair ..."

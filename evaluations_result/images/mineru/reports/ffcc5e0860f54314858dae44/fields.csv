@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.696429,false,,,,"The evaluation treats dates as exact string matches, while quantities, unit prices and total prices must match number‑exactly. All gold items have dates in the year 20xx (e.g., ""08/23/20""), whereas ea..."

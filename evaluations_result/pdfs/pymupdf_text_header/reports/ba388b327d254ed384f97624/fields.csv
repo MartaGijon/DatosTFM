@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.942857,true,,,,"The gold and predicted arrays contain identical sets of positions, so each gold item can be paired with a predicted item. Using the provided metric definitions, all primitive numeric and integer field..."

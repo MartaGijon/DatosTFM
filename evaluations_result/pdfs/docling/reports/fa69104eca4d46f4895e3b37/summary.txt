@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: fa69104eca4d46f4895e3b37
+Timestamp: 2026-05-13T14:05:43.647653
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 0.750
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 8
+  Required Keys: 6
+  Optional Keys: 0
+  By Type: array: 1, integer: 1, number: 1, object: 2, string: 3
+
+COVERAGE
+----------------------------------------
+  Present in Both: 20
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.750
+  Median Score: 0.750
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.750
+      Reason: Each gold object contains five fields: date, code, unit_price_gross, position, and description. We u...
+
+================================================================================

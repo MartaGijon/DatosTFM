@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "variant_name": "1100delC",
+            "carrier_status": "Carrier",
+            "cases_count": 455,
+            "cases_percentage": 98.1,
+            "controls_count": 450,
+            "controls_percentage": 0.4,
+            "odds_ratio": 0.5,
+            "confidence_interval": "0.2 - 0.5"
+        }
+    ]
+}

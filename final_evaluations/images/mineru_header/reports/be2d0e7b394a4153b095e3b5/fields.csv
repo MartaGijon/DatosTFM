@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.400000,false,,,,"All predicted items share the same quantity value ""4"", which does not match the gold quantity string ""4 cartons/ 200 cig."" for any entry; this causes the quantity field to fail for every pair. The gol..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The evaluation aligns each gold item with a predicted item having the same date. For numbers, the 10.402716 in predictions does not match the exact gold value 10.4, so the number field fails per the n..."

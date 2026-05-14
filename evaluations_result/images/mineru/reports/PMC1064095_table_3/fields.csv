@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.333333,false,,,,"There is one gold item and one predicted item. Each field is evaluated with basic exactness: numeric fields use number_exact, string fields use string_exact. The fields 'odds_ratio' (0.7 vs 0.7) and '..."

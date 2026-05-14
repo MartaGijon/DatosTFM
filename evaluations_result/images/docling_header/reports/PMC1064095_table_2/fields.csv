@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.100000,false,,,,"The predicted array has a single entry. To maximize the matched score we pair this entry with the first gold item because it shares the patient/controls field ""31/24"" which matches exactly under the s..."

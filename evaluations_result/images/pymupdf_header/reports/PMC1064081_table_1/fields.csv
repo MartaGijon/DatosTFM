@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The gold array contains a single complex object with three fields. The predicted array also contains one object with corresponding fields. Using the provided metrics, each field should match exactly: ..."

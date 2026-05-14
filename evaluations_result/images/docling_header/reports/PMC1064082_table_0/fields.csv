@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'expression_group': 'Low expression', 'count_less_than_3000': 10, 'count_greater_than_3000': 1, 'p_value': 0.0}, {'expression_group': 'High expression', 'count_less_than_3000': 3, 'count_greater_than_3000': 11, 'p_value': 0.001}]",[],extracted_empty_array,

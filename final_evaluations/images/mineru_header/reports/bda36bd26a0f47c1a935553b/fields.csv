@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.533333,false,,,,"All gold and predicted items share the same position (2) and unit_price_gross (50.0). The 'code' and 'description' fields differ between gold and predicted, so they do not match. For the 'quantity' an..."

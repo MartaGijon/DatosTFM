@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 57 gold entries have identical attributes (date, position, description, unit_price_net) to a predicted entry. Because the predicted array contains the same set of records (just in a different orde..."

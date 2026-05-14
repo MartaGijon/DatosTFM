@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.010204,false,,,,"We evaluated each gold item against the single predicted item, applying exact string and integer matching per field. The gene_variant field never matches because the prediction only contains ""CYP17"" w..."

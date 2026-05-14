@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold and predicted arrays each contain 7 items, and the arrays are treated as unordered sets. For each gold item we find a predicted item with the same position, quantity, and price, but the code ..."

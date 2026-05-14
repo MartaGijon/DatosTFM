@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.040816,false,,,,"The gold array contains 14 entries, many repeated. The predicted array has only one entry with model_id ""4"". Field-by-field evaluation uses:
+
+- Number fields: compared by exact float equality (number_..."

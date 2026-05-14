@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"The evaluation treats array items as unordered and compares each gold item with the best‑matching predicted item using exact equality for every field. Each gold item has six fields: position, code, un..."

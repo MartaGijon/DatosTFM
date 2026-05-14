@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.508333,false,,,,"The evaluation considered each gold item versus every predicted item, computing a partial match score as the fraction of fields that satisfy the field-specific rules. Numerical fields were compared ex..."

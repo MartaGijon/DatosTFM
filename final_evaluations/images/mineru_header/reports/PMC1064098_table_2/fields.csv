@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.722222,true,,,,"There are six gold items and six predicted items. Each predicted item exactly matches a gold item on the ""cell_type"" field because the same CAF-1 to CAF-6 labels appear in both arrays. The numeric fie..."

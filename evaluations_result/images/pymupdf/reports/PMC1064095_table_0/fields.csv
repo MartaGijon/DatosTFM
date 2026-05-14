@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"There is only one gold item, so it can be matched to at most one of the three predicted items. For each field the comparison follows the supplied metric definitions: string fields are evaluated with e..."

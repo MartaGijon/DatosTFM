@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"For each gold item, we evaluate each field against the available predicted items. The gold array has one item, and the prediction contains two. Using the defined metrics (integer_exact, number_exact, ..."

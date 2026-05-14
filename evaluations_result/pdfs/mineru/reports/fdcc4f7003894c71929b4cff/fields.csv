@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains six distinct records, each with three fields: date, description, and price_gross. The predicted array has nine records, including three duplicates of date 11/2/2020 and two dup..."

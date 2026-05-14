@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666750,false,,,,"All four gold items have unique codes which also appear in the predicted array. Each item is paired with its corresponding code, resulting in correct matches for the code, description, unit_price_gros..."

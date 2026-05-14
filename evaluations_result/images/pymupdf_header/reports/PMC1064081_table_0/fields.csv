@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.666667,false,,,,"The gold and predicted arrays each contain one object. Comparing corresponding fields:
+- “involved_nodes_range” matches (""11-20""): 1.0.
+- “number_of_patients_at_risk” matches (6350): 1.0.
+- “percentag..."

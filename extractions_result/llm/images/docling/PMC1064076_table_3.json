@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "stratified_variable": "Total vegetables",
+            "intake_level": "> Median",
+            "menopausal_status": "Premenopausal women",
+            "genotype": "Valval",
+            "cases_controls": "126/151",
+            "odds_ratio": 1.0,
+            "confidence_interval": "0.6-1.51",
+            "reference": true
+        }
+    ]
+}

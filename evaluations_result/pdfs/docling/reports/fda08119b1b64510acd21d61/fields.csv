@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold and predicted arrays contain 8 identical items each. Each item has four fields: date, code, unit_price_gross, and description. Applying the defined metrics:
+- date: string_exact – both values..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold items exactly match the corresponding predicted items on every field. The ""description"" and ""date"" fields are identical strings, so the string_semantic metric passes. The numeric fields..."

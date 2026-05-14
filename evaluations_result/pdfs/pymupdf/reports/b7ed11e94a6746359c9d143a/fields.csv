@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"The gold array contains 7 identical objects, each with fields ""date"" (string) and ""price_gross"" (number). The predicted array contains 6 identical objects that match all fields of a gold object exactl..."

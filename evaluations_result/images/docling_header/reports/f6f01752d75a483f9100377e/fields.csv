@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The evaluation proceeds as follows:
+
+1. **Gold item 0** – ""HRS. 2 CRANES TO REMOVE MARLBORO AD BOARD FROM FIELD""
+   - *quantity*: 3.0 vs 2.0 → `number_exact` mismatch (0.0)
+   - *description*: LLM‑sem..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"I first counted the gold and predicted arrays, finding 14 items each. The gold array contains the following unique combinations of (date, quantity, unit_price_gross, price_gross), some of which occur ..."

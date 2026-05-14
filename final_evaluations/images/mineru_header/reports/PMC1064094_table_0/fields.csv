@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All items in the gold array have a corresponding identical item in the predicted array. Each field (carcinoma_type, location, number_tested, hpv_dna_positive) matches exactly between the paired items,..."

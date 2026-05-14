@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.875000,true,,,,"The predicted object has all fields identical to the gold object except for the confidence_interval field. The gold value includes parentheses ""(0.6-14.6)"", while the predicted value is ""0.6-14.6"" wit..."

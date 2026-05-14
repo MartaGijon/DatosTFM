@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.992857,true,,,,"There is only one item in each array, so a single pair is evaluated. Each field is checked against the appropriate metric: integers use integer_exact, numeric values use number_exact, and all textual ..."

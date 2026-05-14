@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.416667,false,,,,"There are two gold records and one predicted record. Each gold record has six fields:
+- age_category (string_exact)
+- tumor_size_category (string_exact)
+- low_expression_count (integer_exact)
+- low_ex..."

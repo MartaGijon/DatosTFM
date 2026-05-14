@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"The gold array consists of eight transaction objects, each with four fields: date, quantity, unit_price_gross, and price_gross. The predicted array also has eight objects, all sharing identical numeri..."

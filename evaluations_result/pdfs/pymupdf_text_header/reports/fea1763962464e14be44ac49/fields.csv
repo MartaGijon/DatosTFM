@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold and predicted items are identical, so each field in each pair matches exactly. The partial match score for each gold item is 1.0, yielding a total matched_score of 2.0."

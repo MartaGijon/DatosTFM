@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item has a corresponding predicted item that matches all required fields. The description fields, while slightly truncated in the predictions, are semantically equivalent and would be judged..."

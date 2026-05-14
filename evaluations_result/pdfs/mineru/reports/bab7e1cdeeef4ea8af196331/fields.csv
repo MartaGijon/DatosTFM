@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays contain four unordered items each.  For each gold item, we found a one‑to‑one prediction that matches all numeric fields exactly (unit_price_gross, price_gross, quantity)..."

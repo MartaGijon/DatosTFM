@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.571429,false,,,,"Each gold item has seven fields. The pass logic is dictated by the provided metric definitions: integers and numbers use exact numeric match, strings use exact string match. For every gold record, the..."

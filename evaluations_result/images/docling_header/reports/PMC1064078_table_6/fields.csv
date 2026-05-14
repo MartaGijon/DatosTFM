@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.142857,false,,,,"Only one gold item exists. For each predicted item we check all seven fields (birth_order_category, race, minimally_adjusted_or, ci_lower_bound, ci_upper_bound, case_count, control_count) using the sp..."

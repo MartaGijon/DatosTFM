@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "birth_order_category": "2nd through 4th",
+            "race": "African-American",
+            "minimally_adjusted_or": 1.0,
+            "ci_lower_bound": 0.5,
+            "ci_upper_bound": 1.7,
+            "case_count": 61,
+            "control_count": 69
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"Both arrays contain eight identical objects, each with the fields date, code, unit_price_gross, and description. The only difference is that every predicted date value has a leading ""Tue "" prefix. All..."

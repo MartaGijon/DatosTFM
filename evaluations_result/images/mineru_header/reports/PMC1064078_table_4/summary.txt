@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: PMC1064078_table_4
+Timestamp: 2026-05-13T14:31:33.041688
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 1.000
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 14
+  Required Keys: 12
+  Optional Keys: 0
+  By Type: array: 1, integer: 4, number: 6, object: 2, string: 1
+
+COVERAGE
+----------------------------------------
+  Present in Both: 22
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 1.000
+  Median Score: 1.000
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 1.000
+      Reason: Both gold and predicted arrays contain two identical objects. For each structural field, values matc...
+
+================================================================================

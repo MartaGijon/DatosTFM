@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The gold array contains four objects, two with unit_price_gross 31.0 (description ""M-F AM Drive"") and two with unit_price_gross 29.0 (description ""M/F Midday""). The predicted array also contains four ..."

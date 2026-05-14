@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.937500,true,,,,"The evaluation treats arrays as unordered collections, so each predicted item can be matched to any gold item. We compute partial match scores by comparing each field with the corresponding gold field..."

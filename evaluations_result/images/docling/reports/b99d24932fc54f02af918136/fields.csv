@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.937500,true,,,,"The gold and predicted arrays each contain four items.  For each field we use the provided metric definitions: date, description, and code are evaluated with string_exact, whereas unit_price_gross is ..."

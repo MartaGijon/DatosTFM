@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"There is one gold item and one predicted item, so we align them directly. All string fields match exactly except the confidence_interval field, which differs by parentheses around the interval. The nu..."

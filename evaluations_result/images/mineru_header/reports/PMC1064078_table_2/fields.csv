@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains the same two items as the gold array, though in swapped order. Each gold item matches exactly one predicted item on all 10 fields. String fields are evaluated with string_..."

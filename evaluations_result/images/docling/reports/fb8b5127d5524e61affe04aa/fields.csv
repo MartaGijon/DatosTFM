@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The predicted array contains three identical items (date, unit_price_gross, description) that precisely match three of the six gold items. For each matched pair, all three fields meet their respective..."

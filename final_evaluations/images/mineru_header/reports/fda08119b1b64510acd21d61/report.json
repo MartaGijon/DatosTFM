@@ -1,0 +1,156 @@
+{
+  "output_name": "fda08119b1b64510acd21d61",
+  "timestamp": "2026-05-14T09:09:08.267665",
+  "schema_hash": "5a84fb8a",
+  "gold_hash": "bc1b8fff",
+  "extracted_hash": "61c6a131",
+  "schema_stats": {
+    "total_nodes": 7,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 3,
+      "number": 1
+    },
+    "required_keys_count": 5,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 3,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 33,
+    "counts_by_type": {
+      "array": 1,
+      "string": 24,
+      "number": 8
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 8,
+      "min_length": 8,
+      "median_length": 8,
+      "max_length": 8
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 25,
+    "counts_by_type": {
+      "array": 1,
+      "string": 18,
+      "number": 6
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 24,
+    "missing_in_extracted": 8,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[6].code",
+      "items[6].date",
+      "items[6].description",
+      "items[6].unit_price_gross",
+      "items[7].code",
+      "items[7].date",
+      "items[7].description",
+      "items[7].unit_price_gross"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.5625,
+      "median_score": 0.5625,
+      "score_distribution": {
+        "0.4-0.6": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.5625,
+          "reasoning": "The gold array contains 8 identical items. The predicted array contains 6 items, all of which match the gold in date, unit_price_gross, and (mostly) description, but the 'code' field differs (gold: \"3..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.5625,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "The gold array contains 8 identical items. The predicted array contains 6 items, all of which match the gold in date, unit_price_gross, and (mostly) description, but the 'code' field differs (gold: \"3..."
+    }
+  ],
+  "overall_score": 0.5625,
+  "overall_pass_rate": 0.0
+}

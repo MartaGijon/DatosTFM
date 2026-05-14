@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"For each gold item, the best matching predicted item was chosen based on field-by-field evaluation. Numeric fields (quantity, unit_price_gross, price_gross) are compared using exact numeric equality, ..."

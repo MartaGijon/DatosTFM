@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"The evaluation uses exact matching for all three fields: histology_type (string_exact), case_count (integer_exact), and frequency_percentage (number_exact). Each gold item is aligned to the prediction..."

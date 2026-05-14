@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.333333,false,,,,"There is one gold item and one predicted item, so they are paired. Each field is evaluated using the appropriate metric: string_exact for textual fields, number_exact for numeric. The pcb_level field ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains all four items exactly matching the gold array; therefore, each gold item can be perfectly paired with a predicted item. All fields – position, date, date_end, unit_price_..."

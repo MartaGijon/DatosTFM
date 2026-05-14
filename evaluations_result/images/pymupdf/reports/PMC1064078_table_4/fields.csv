@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.772750,true,,,,"The evaluation compares each object in the gold array to each object in the predicted array, treating arrays as unordered collections. For each field we use the appropriate metric: string_exact for ""m..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both arrays contain exactly seven items. Each item in the gold array is identical to a corresponding item in the predicted array: the ""date"" string matches exactly and the ""price_gross"" number is nume..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All five gold items are present in the predicted array with identical field values. For each item pair, the date, quantity, unit_price_gross, and price_gross fields satisfy the relevant exact-matching..."

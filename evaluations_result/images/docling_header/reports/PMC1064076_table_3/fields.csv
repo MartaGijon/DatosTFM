@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.208333,false,,,,"The predicted item is compared against each gold item individually using the string_exact, number_exact, and boolean_exact metrics for each field. Stratified_variable, intake_level and menopausal_stat..."

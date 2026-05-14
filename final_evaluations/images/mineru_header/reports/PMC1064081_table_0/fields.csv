@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.500000,false,,,,"The gold and predicted arrays each contain a single object, considered unordered. For the only possible alignment, six fields are compared:
+1. `involved_nodes_range` – exact string match (1.0)
+2. `num..."

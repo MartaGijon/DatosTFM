@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.400000,false,,,,"The evaluation considered each pair of gold and predicted items using the defined metrics: string_semantic for the description field, integer_exact for quantity, and number_exact for unit_price_gross...."

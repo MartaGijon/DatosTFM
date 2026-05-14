@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold items can be matched one‑to‑one with the six predicted items. For each pair, the description field is considered semantically equivalent (e.g., ""WMPX/AM"" vs ""WMPX-AM 10:00AM-03:00PM""), yi..."

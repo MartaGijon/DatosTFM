@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.222222,false,,,,"Two predicted entries each have a code of ""9914861"", a date of ""06/06/22-06/07/22"", and a price_gross of 500.0. The gold array contains three distinct items with codes beginning ""Normal Line / SPOT (…..."

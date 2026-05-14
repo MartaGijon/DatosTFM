@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All eight gold items have identical fields to the eight predicted items (exact match on date, description, and price_gross). Since arrays are treated as unordered collections, each gold item can be pa..."

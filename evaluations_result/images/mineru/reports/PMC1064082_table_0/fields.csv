@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.875000,true,,,,"The gold array contains two items: a low expression group and a high expression group, each with four fields.  The predicted array also has two items which are the same two groups, but the low express..."

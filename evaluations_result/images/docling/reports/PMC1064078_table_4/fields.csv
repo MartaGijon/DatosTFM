@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.636350,false,,,,"The gold array has two items, each with 11 fields.  For each field we apply the exact matching metric rules: strings must match exactly (`string_exact`), integers use `integer_exact`, and numeric valu..."

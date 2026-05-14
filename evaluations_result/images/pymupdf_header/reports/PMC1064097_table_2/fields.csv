@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.777778,true,,,,"The evaluator considered each field of the sole gold item against the corresponding fields of the single predicted item. For string fields (“radiotracer_name”, “subgroup_type”) an exact, case‑sensitiv..."

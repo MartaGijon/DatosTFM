@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.700000,true,,,,"Gold and predicted arrays both contain two items, so the optimal alignment pairs each gold item with its corresponding predicted item. For numeric fields (quantity, unit_price_gross, price_gross) the ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.380952,false,,,,"The evaluation treats each field with the most appropriate metric: numeric fields use number_exact, integers use integer_exact, and strings use string_exact. Because dates, descriptions, and quantitie..."

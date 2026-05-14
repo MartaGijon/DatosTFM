@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.928571,true,,,,"The evaluation treats each field as a primitive and applies exact comparison rules. For the first gold item the predicted item matches on all seven fields: description, date, date_end, quantity, price..."

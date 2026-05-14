@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"The gold and predicted arrays are both lists of objects, each containing two fields: a date string and a numeric unit_price_gross.
+
+1. **Per‑field evaluation**
+   - The numeric field `unit_price_gross..."

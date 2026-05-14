@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"There are three items in each array. For each gold / predicted pair the fields ""code"", ""date"", and ""price_gross"" are compared using the available metric definitions. 
+
+- The code field in gold values ..."

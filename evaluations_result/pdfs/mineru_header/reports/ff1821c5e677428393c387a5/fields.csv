@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains exactly the same two items as the gold array with all four fields matching precisely. For each gold item, we found a perfect corresponding predicted item. Each field passe..."

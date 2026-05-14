@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.420000,false,,,,"The evaluation treats each field according to its type: integers are checked with integer_exact, numbers with number_exact, and strings with string_exact (case‑sensitive). For quantity the string must..."

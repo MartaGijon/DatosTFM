@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.928571,true,,,,"The gold and predicted arrays consist of identical objects except for one gold entry (07/20/20) that has no matching counterpart in the prediction due to the counts differing (gold has 6 of 07/20/20, ..."

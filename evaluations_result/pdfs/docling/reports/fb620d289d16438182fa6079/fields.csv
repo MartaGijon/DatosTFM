@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"The gold and predicted arrays each have two items. We evaluated each field according to the provided metric definitions:
+
+1. **position** – evaluated with `integer_exact`. Both items match exactly (2 ..."

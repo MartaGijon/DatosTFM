@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "code": "114329-1",
+            "date": "07/14/99",
+            "description": "PVT-INDIANAPOLIS",
+            "unit_price_gross": 6.0,
+            "price_gross": 13.0
+        },
+        {
+            "code": "115025-8",
+            "date": "07/16/99",
+            "description": "CHR INDIANAPOLIS",
+            "unit_price_gross": 0.0,
+            "price_gross": 182.4
+        }
+    ]
+}

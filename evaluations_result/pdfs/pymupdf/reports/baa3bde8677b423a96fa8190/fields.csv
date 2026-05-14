@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The predicted array contains the same four entries as the gold array; only minor punctuation differences exist in the `description` field. Using the authority of the provided metric definitions, I tre..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.300000,false,,,,"The predicted array contains one item with fields that partially match the two gold items. To maximize the total match score, we paired the predicted item with gold item #2 (description ""DEVELOPING FI..."

@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items are present in the predicted array, each with identical values for the fields `position`, `date`, `date_end`, and `unit_price_gross`. 
+
+For each field, the evaluation rules are:
+- ..."

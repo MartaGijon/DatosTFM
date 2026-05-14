@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items have numeric fields that match exactly with the corresponding predicted items. The description strings differ only in minor formatting (e.g., ‘/’ vs ‘‑’ and ‘/29’ vs ‘‑29’). Using ..."

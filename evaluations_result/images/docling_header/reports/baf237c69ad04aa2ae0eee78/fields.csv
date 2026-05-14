@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.165000,false,,,,"The gold array contains two items and the predicted array one. Each predicted item can match only one gold item. For each field we apply the metric rules: integer_exact for integers, number_exact for ..."

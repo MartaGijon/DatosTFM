@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.696429,false,,,,"The evaluation treats each array item as an unordered set. Field‐by‐field evaluation uses the metric definitions: the numeric fields (`quantity`, `unit_price_gross`, `price_gross`) are checked with in..."

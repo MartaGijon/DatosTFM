@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.725000,true,,,,"The evaluation treated the arrays as unordered collections and used per-field matching rules. Numerical fields were compared with exact equality (`number_exact`), integer fields with `integer_exact`, ..."

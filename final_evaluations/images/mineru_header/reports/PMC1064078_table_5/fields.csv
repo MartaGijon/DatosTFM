@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.187500,false,,,,"The predicted array has one entry that contains data derived from the first gold item (Case, African‑American, age 23‑27). We compare every field using the appropriate metric: string_exact for string ..."

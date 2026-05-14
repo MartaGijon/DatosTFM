@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items have exact matches in position, dates, quantity, price, and unit price. The only difference is a minor formatting variation in the description field: 'M/F Midday' vs 'M-F Midday' and '..."

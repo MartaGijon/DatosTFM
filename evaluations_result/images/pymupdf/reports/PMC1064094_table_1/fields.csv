@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"The gold array contains two items, each with four fields: tumor_pair_status, nipple_status, number_of_samples, and hpv_types. For scoring, integer fields are evaluated using integer_exact and string f..."

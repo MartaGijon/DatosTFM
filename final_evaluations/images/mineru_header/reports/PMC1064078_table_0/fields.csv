@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.857143,true,,,,"There is a single gold item and a single predicted item, so the alignment is trivial. For each field we apply the default metric inference: textual fields are evaluated with string_exact, numeric fiel..."

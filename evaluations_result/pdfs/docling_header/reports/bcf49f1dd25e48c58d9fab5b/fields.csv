@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.833333,true,,,,"The evaluation is based on field‑by‑field exact matches: numbers are compared with number_exact, integers with integer_exact, and the date strings with string_semantic (treated as exact equality when ..."

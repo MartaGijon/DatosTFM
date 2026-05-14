@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.750000,true,,,,"All eight gold items are identical. Each predicted item also contains the same four fields. For every field the comparison rules are:
+- ""date"" – string_exact: gold value ""11/06/18"" vs predicted ""Tue 1..."

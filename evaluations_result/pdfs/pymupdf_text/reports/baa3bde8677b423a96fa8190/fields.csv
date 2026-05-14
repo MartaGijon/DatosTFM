@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold items can be matched one‑to‑one with the four predicted items.
+
+1. **Description** – The predicted descriptions contain the same temporal and activity information as the gold description..."

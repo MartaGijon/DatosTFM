@@ -1,0 +1,4 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.390000,false,,,,"The predicted array contains a single item. We evaluate partial match scores for pairing this item with each gold item, considering the prescribed per-field metrics:
+
+1. **Quantity** – compared with `..."

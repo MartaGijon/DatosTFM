@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold and predicted arrays contain the same four items, differing only in order. For each gold item we can find a predicted item with identical values for all four fields: description, unit_price_g..."

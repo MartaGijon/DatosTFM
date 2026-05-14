@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.311111,false,,,,"The evaluation treats all string fields (code, date, description) using exact string matching (string_exact) and numeric fields via exact numeric equality (number_exact). Thus any small variation in t..."

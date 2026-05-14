@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 57 gold items precisely match a predicted item with identical values for date, position, description, and unit_price_net. Each gold item is paired with a unique predicted item, attaining a partial..."

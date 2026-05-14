@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold items have an exact counterpart in the predicted array.  Each predicted item matches a unique gold item on every field: transaction_date, description, duration_minutes, unit_price_gross, ..."

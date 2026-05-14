@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666700,false,,,,"There is one gold item and one predicted item. For each field, the evaluation uses the appropriate metric: integers with integer_exact, floats with number_exact, and strings with string_exact. The fie..."

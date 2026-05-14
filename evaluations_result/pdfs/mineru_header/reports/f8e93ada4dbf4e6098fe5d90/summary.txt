@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: f8e93ada4dbf4e6098fe5d90
+Timestamp: 2026-05-13T14:26:02.300103
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 0.708
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 9
+  Required Keys: 7
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 2, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 102
+  Missing in Extracted: 18
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.708
+  Median Score: 0.708
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.708
+      Reason: All 17 predicted items find a gold counterpart that matches on every numeric field (unit_price_gross...
+
+================================================================================

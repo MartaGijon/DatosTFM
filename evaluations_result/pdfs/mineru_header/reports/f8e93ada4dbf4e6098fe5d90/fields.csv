@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.708333,true,,,,"All 17 predicted items find a gold counterpart that matches on every numeric field (unit_price_gross, quantity, price_gross) and on the semantic content of the description and date strings. The descri..."

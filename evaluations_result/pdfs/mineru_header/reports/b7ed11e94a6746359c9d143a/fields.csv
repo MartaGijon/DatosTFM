@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All 7 gold items exactly match the 7 predicted items. Each item has two fields, “date” and “price_gross”, and both fields are identical in the gold and predicted arrays. Therefore each gold item can b..."

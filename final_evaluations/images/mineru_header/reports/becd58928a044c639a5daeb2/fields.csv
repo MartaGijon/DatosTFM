@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.928571,true,,,,"All items in the predicted array are identical to gold items in every field—date, description, and amount_net.  Each gold item can be paired with a distinct predicted item that has the same values, ex..."

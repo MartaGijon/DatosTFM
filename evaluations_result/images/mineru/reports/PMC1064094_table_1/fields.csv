@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.125000,false,,,,"The evaluation compares each gold array item to each predicted array item using the provided metrics. For each field, the gold and predicted values must match exactly (case-sensitive) to receive a pas..."

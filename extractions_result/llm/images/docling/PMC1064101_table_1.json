@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "histology_type": "Ductal carcinoma",
+            "case_count": 37,
+            "frequency_percentage": 82.7
+        },
+        {
+            "histology_type": "Lobular carcinoma",
+            "case_count": 30,
+            "frequency_percentage": 18.7
+        }
+    ]
+}

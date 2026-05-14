@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"The four predicted items were aligned with the four gold items that share the same dates, quantities, prices, unit prices, and positions. For each of these pairs the description was deemed a semantic ..."
